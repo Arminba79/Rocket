@@ -38,3 +38,33 @@ themeToggleBtn.addEventListener('click', function() {
     }
     
 });
+
+
+
+
+
+
+var splide = new Splide( '.splide', {
+    direction: 'rtl',
+    arrows   : false,
+    perPage: 3,
+    focus  : 'center',
+    drag:"free",
+    rewind: true,
+    autoplay: true,
+    breakpoints:{
+        640:{
+            perPage: 1,
+        },
+
+        1000:{perPage: 1}
+    }
+    
+  } );
+  
+  splide.mount();
+
+
+
+
+

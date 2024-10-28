@@ -6,6 +6,8 @@
     "tailwindcss": "^3.4.4"
   },
   "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "aos": "^2.3.4",
     "flowbite": "^2.3.0"
   }
 }

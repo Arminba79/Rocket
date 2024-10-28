@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -15,7 +17,8 @@
 
     <header>
         <!-- for desktop -->
-        <section class="container  hidden lg:flex w-full  lg:flex-wrap justify-center lg:flex-col items-center mx-auto ">
+        <section
+            class="container  hidden lg:flex w-full  lg:flex-wrap justify-center lg:flex-col items-center mx-auto ">
             <!-- head up -->
             <div class="lg:flex lg:w-11/12 mt-7 py-9 rounded-2xl dark:bg-[#0E2338] justify-around shadow-lg ">
                 <!-- navbar -->
@@ -24,9 +27,9 @@
 
 
                 <!-- logo -->
-                <svg class=" lg:block ms-2 " width="220" version="1.1" id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 578 128" style="enable-background: new 0 0 578 128" xml:space="preserve">
+                <svg class=" lg:block ms-2 " width="220" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 578 128"
+                    style="enable-background: new 0 0 578 128" xml:space="preserve">
                     <style type="text/css">
                         .st0 {
                             fill: #ffffff;
@@ -78,7 +81,8 @@
                 <form class="lg:flex ms-6 ">
                     <button class=" px-3 border-none rounded-s-xl bg-[#ECEEEF] dark:bg-[#1B314C]"><i
                             class="bi bi-search"></i></button>
-                    <input type="search" class="w-[32rem] border-none focus:outline-none rounded-e-xl dark:bg-[#1B314C] bg-[#ECEEEF] text-black dark:text-slate-300 focus:ring-0"
+                    <input type="search"
+                        class="w-[32rem] border-none focus:outline-none rounded-e-xl dark:bg-[#1B314C] bg-[#ECEEEF] text-black dark:text-slate-300 focus:ring-0"
                         placeholder="دنبال جی میگردی ؟">
                 </form>
                 <!-- buttons -->
@@ -104,7 +108,8 @@
 
                     </button>
 
-                    <button class="bg-blue-600 text-white h-10 px-4 rounded-e-lg flex items-center gap-2  hover:bg-green-600 transition saturate-150">
+                    <button
+                        class="bg-blue-600 text-white h-10 px-4 rounded-e-lg flex items-center gap-2  hover:bg-green-600 transition saturate-150">
                         <span>عضویت</span>
                         <i class="bi bi-person-add"></i>
 
@@ -116,12 +121,18 @@
             <div class="bg-[#D0D3DB] dark:bg-[#0C243F] w-10/12 rounded-b-2xl ">
                 <nav>
                     <ul class="flex justify-center gap-7 py-5">
-                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 " href="#">راکت</a></li>
-                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 " href="#">دوره های اموزشی</a></li>
-                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 " href="#">پرسش و پاسخ</a></li>
-                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 " href="#">مقالات</a></li>
-                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 " href="#">راکت کست</a></li>
-                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 " href="#">لینک های مفید</a></li>
+                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 "
+                                href="#">راکت</a></li>
+                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 "
+                                href="#">دوره های اموزشی</a></li>
+                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 "
+                                href="#">پرسش و پاسخ</a></li>
+                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 "
+                                href="#">مقالات</a></li>
+                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 "
+                                href="#">راکت کست</a></li>
+                        <li><a class="text-[#425063] dark:text-[#F3F4F5] hover:text-blue-500 hover:dark:text-blue-600 transition saturate-150 "
+                                href="#">لینک های مفید</a></li>
                     </ul>
                 </nav>
             </div>
@@ -365,7 +376,7 @@
 
     </header>
 
-    <main class="container mx-auto mt-14">
+    <main class="container mx-auto mt-14 ">
         <!-- first sec -->
         <section class="flex flex-col lg:flex-row ">
             <div class="flex flex-col lg:w-6/12 ps-10  gap-8 lg:ms-16">
@@ -378,8 +389,9 @@
                     باشید، بقیه‌اش با راکت
                 </span>
 
-               
-                <button class="bg-[#3B82F6] w-72 py-4 rounded-lg text-white font-bold hover:bg-gray-700 transition duration-150 sm:mx-0 flex justify-center">
+
+                <button
+                    class="bg-[#3B82F6] w-72 py-4 rounded-lg text-white font-bold hover:bg-gray-700 transition duration-150 sm:mx-0 flex justify-center">
                     <span>شروع یادگیری برنامه‌نویسی</span>
                     <svg class="mr-1 -mt-0.5" width="26" height="25" viewBox="0 0 26 25" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -403,7 +415,9 @@
                                     d="M19.0432 3.4589C16.1689 1.90568 14.3052 0.973391 12.3791 0.973389C10.4529 0.973389 8.58925 1.90568 5.71494 3.4589L5.66333 3.48679C4.24222 4.25471 3.11182 4.86554 2.34149 5.38588C1.95135 5.64941 1.59935 5.92484 1.3381 6.22484C1.07383 6.5283 0.836426 6.93396 0.836426 7.43725V14.8245C0.836426 15.3345 1.24985 15.7479 1.75984 15.7479C2.26982 15.7479 2.68325 15.3345 2.68325 14.8245V9.71094C3.19973 10.0359 3.83998 10.3961 4.58945 10.8055C4.5299 11.5482 4.52998 12.5083 4.53007 13.7474L4.53008 13.901C4.53008 18.5181 5.90983 19.4415 12.3473 19.4415C18.3812 19.4415 20.228 18.5181 20.228 13.901C20.228 12.5893 20.228 11.5817 20.1622 10.809C21.0898 10.3024 21.8505 9.87105 22.4166 9.48863C22.8067 9.2251 23.1587 8.94967 23.42 8.64967C23.6843 8.3462 23.9217 7.94054 23.9217 7.43725C23.9217 6.93396 23.6843 6.5283 23.42 6.22483C23.1587 5.92484 22.8067 5.64941 22.4166 5.38588C21.6463 4.86555 20.5159 4.25471 19.0948 3.4868L19.0432 3.4589ZM18.3645 11.7804C15.8668 13.1137 14.1493 13.9011 12.3791 13.9011C10.6081 13.9011 8.89004 13.113 6.39073 11.7789C6.37715 12.3309 6.3769 13.0206 6.3769 13.901C6.3769 16.1773 6.75931 16.6617 7.08659 16.8917C7.33186 17.0641 7.7906 17.2616 8.69009 17.3996C9.58312 17.5366 10.7639 17.5947 12.3473 17.5947C13.8247 17.5947 14.9599 17.537 15.8408 17.4001C16.726 17.2626 17.2299 17.0628 17.5283 16.8645C17.9408 16.5904 18.3812 16.0445 18.3812 13.901C18.3812 13.0204 18.3798 12.331 18.3645 11.7804ZM3.37523 6.91628C3.03344 7.14715 2.83624 7.3168 2.73122 7.43725C2.83624 7.55771 3.03344 7.72736 3.37523 7.95823C4.0603 8.42098 5.10889 8.9889 6.59293 9.79084C9.57742 11.4036 11.0095 12.0543 12.3791 12.0543C13.7486 12.0543 15.1807 11.4036 18.1652 9.79085C19.6492 8.9889 20.6978 8.42098 21.3829 7.95823C21.7246 7.72736 21.9219 7.55771 22.0269 7.43725C21.9219 7.31679 21.7247 7.14714 21.3829 6.91627C20.6978 6.45352 19.6492 5.8856 18.1652 5.08366C15.1807 3.47091 13.7486 2.82021 12.3791 2.82021C11.0095 2.82021 9.57742 3.4709 6.59293 5.08366C5.1089 5.88561 4.06031 6.45353 3.37523 6.91628ZM22.0893 7.52173L22.0881 7.51925C22.089 7.52091 22.0893 7.52173 22.0893 7.52173ZM22.0881 7.35525L22.0893 7.35278C22.0893 7.35277 22.089 7.35359 22.0881 7.35525ZM2.66996 7.35526C2.66909 7.35359 2.66874 7.35277 2.66879 7.35278L2.66996 7.35526Z"
                                     fill="#E81C4D"></path>
                             </svg>
-                            <span class="text-gray-450 dark:text-white font-semibold md:text-[0.8rem] lg:text-[0.9] ">بیش از 80 دوره
+                            <span
+                                class="text-gray-450 dark:text-white font-semibold md:text-[0.8rem] lg:text-[0.9] ">بیش
+                                از 80 دوره
                                 آموزشی</span>
                         </div>
                         <div class="flex">
@@ -419,7 +433,8 @@
                                     d="M13.1577 9.18182L14.9195 7.33429C15.3244 6.90978 16.0046 6.88646 16.4388 7.2822L19.658 10.2159C20.0923 10.6117 20.1161 11.2766 19.7113 11.7011L17.8182 13.6864M13.1577 9.18182L8.28868 14.2877C8.08633 14.4999 7.98271 14.7844 8.00236 15.0738L8.20234 18.0187C8.23993 18.5724 8.71141 19.0021 9.27903 19L12.2983 18.9888C12.595 18.9877 12.8781 18.8667 13.0805 18.6545L17.8182 13.6864M13.1577 9.18182L17.8182 13.6864"
                                     stroke="#9018EE" stroke-width="2" stroke-linejoin="round"></path>
                             </svg>
-                            <span class="text-gray-450 dark:text-white font-semibold md:text-[0.8rem] lg:text-[0.9]"> یادگیری با تمرین و
+                            <span class="text-gray-450 dark:text-white font-semibold md:text-[0.8rem] lg:text-[0.9]">
+                                یادگیری با تمرین و
                                 آزمون</span>
                         </div>
 
@@ -441,7 +456,9 @@
                                 <circle opacity="0.15" cx="19.348" cy="20.348" r="13.8275"
                                     transform="rotate(-33.8601 19.348 20.348)" fill="#98A3B8"></circle>
                             </svg>
-                            <span class="text-gray-450 dark:text-white font-semibold md:text-[0.8rem] lg:text-[0.9]">ضمانت بازگشت
+                            <span
+                                class="text-gray-450 dark:text-white font-semibold md:text-[0.8rem] lg:text-[0.9]">ضمانت
+                                بازگشت
                                 وجه</span>
                         </div>
                         <div class="flex">
@@ -460,7 +477,8 @@
                                 <circle opacity="0.15" cx="21.2863" cy="19.8875" r="13.8275"
                                     transform="rotate(-36.651 21.2863 19.8875)" fill="#51B6FF"></circle>
                             </svg>
-                            <span class="text-gray-450 dark:text-white font-semibold md:text-[0.8rem] lg:text-[0.9]"> پشتیبانی
+                            <span class="text-gray-450 dark:text-white font-semibold md:text-[0.8rem] lg:text-[0.9]">
+                                پشتیبانی
                                 ۲۴ساعته</span>
                         </div>
 
@@ -479,7 +497,7 @@
         </section>
 
         <!-- dore ha -->
-        <section class=" flex flex-wrap mt-32">
+        <section class=" flex flex-wrap mt-32 ">
 
 
 
@@ -507,10 +525,10 @@
 
                 <!-- items -->
 
-                <div class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
+                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400"
+                    class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
                     <a href="#" class="-mt-10 overflow-hidden rounded-lg ">
-                        <img
-                            class="rounded-lg hover:scale-110 transition"
+                        <img class="rounded-lg hover:scale-110 transition"
                             src="https://static.roocket.ir/images/cover/2023/12/1/DVR05FQ8KOVnKQSlBPBXxsWkx3dqqwhk7a3ibULR.jpg"
                             alt="">
                     </a>
@@ -544,7 +562,7 @@
                             ویژه</span>
                     </div>
                     <!-- price -->
-                    <div class="flex justify-between ">
+                    <div class="flex justify-between gap-1 ">
                         <!-- r price -->
                         <div class="flex gap-2">
                             <div
@@ -583,7 +601,8 @@
 
                 </div>
 
-                <div class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
+                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="600"
+                    class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
                     <a href="#" class="-mt-10 overflow-hidden rounded-lg "><img
                             class="rounded-lg hover:scale-110 transition"
                             src="https://static.roocket.ir/images/cover/2024/3/15/EbATSic1DTWuA71kKNttARiXVVuDGyVRhEZ5Gfp1.jpg"
@@ -596,14 +615,15 @@
 
 
                     <a href="#" class="text-[#475466] dark:text-white text-lg font-bold">
-                         آموزش جامع ووکامس
+                        آموزش جامع ووکامس
                     </a>
 
 
                     <!-- tozih -->
                     <p class="text-[#808FA3] text-xs">
-                        با یادگیری ووکامرس می‌توانید وبسایت های فروشگاهی مد خود را با وردپرس به شکل کامل پیاده سازی کنید.
-                       <br> <br>
+                        با یادگیری ووکامرس می‌توانید وبسایت های فروشگاهی مد خود را با وردپرس به شکل کامل پیاده سازی
+                        کنید.
+                        <br> <br>
                     </p>
 
 
@@ -620,7 +640,7 @@
                             ویژه</span>
                     </div>
                     <!-- price -->
-                    <div class="flex justify-between ">
+                    <div class="flex justify-between gap-1">
                         <!-- r price -->
                         <div class="flex gap-2">
                             <div
@@ -659,7 +679,8 @@
 
                 </div>
 
-                <div class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
+                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="800"
+                    class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
                     <a href="#" class="-mt-10 overflow-hidden rounded-lg "><img
                             class="rounded-lg hover:scale-110 transition"
                             src="https://static.roocket.ir/images/cover/2023/12/1/9b04K1DH2DpNew697kBVLIJ9bdeIISvWAUSb3nW6.jpg"
@@ -672,14 +693,15 @@
 
 
                     <a href="#" class="text-[#475466] dark:text-white font-bold text-lg">
-                     
+
                         ساخت ربات تلگرام با لاراول
                     </a>
 
 
                     <!-- tozih -->
                     <p class="text-[#808FA3] text-xs">
-                        ساخت ربات تلگرام با لاراول کار سختی نیست، البته اگر شما راه درست انجام اینکار را بلد باشید، در طی این دوره موارد مختلف راه‌اندازی ربات تلگرامی با ...
+                        ساخت ربات تلگرام با لاراول کار سختی نیست، البته اگر شما راه درست انجام اینکار را بلد باشید، در
+                        طی این دوره موارد مختلف راه‌اندازی ربات تلگرامی با ...
                     </p>
 
 
@@ -696,7 +718,7 @@
                             ویژه</span>
                     </div>
                     <!-- price -->
-                    <div class="flex justify-between ">
+                    <div class="flex justify-between gap-1">
                         <!-- r price -->
                         <div class="flex gap-2">
                             <div
@@ -735,7 +757,8 @@
 
                 </div>
 
-                <div class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
+                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1000"
+                    class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
                     <a href="#" class="-mt-10 overflow-hidden rounded-lg "><img
                             class="rounded-lg hover:scale-110 transition"
                             src="https://static.roocket.ir/images/cover/2024/3/1/aE9nP6wnSnB9ib0M1Q6HelLDM2UZtBf1Bo5LAUhu.jpg"
@@ -754,8 +777,9 @@
 
                     <!-- tozih -->
                     <p class="text-[#808FA3] text-xs">
-                       
-                        آموزش پیشرفته React دوره‌ای است که در آن شما به صورت عمیق‌تر و حرفه‌ای‌تر با ویژگی React آشنا می‌شوید و از آن‌ها به صورت عملی در پروژه‌های  ...
+
+                        آموزش پیشرفته React دوره‌ای است که در آن شما به صورت عمیق‌تر و حرفه‌ای‌تر با ویژگی React آشنا
+                        می‌شوید و از آن‌ها به صورت عملی در پروژه‌های ...
                     </p>
 
 
@@ -772,7 +796,7 @@
                             ویژه</span>
                     </div>
                     <!-- price -->
-                    <div class="flex justify-between ">
+                    <div class="flex justify-between gap-1 ">
                         <!-- r price -->
                         <div class="flex gap-2">
                             <div
@@ -811,7 +835,8 @@
 
                 </div>
 
-                <div class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
+                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1200"
+                    class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
                     <a href="#" class="-mt-10 overflow-hidden rounded-lg "><img
                             class="rounded-lg hover:scale-110 transition"
                             src="https://static.roocket.ir/images/cover/2024/3/19/ctYWILBCgvB3acniqYi5iir43A8c6uhrXFLW4LO8.jpg"
@@ -833,7 +858,7 @@
                         <br>
                         لاراول ۱۱ منتشر شد. در این دوره آموزشی با امکانات جدید لاراول ۱۱ به شکل کامل آشنا خواهید شد.
                     </p>
-                    
+
 
 
                     <div class="flex items-center gap-2 mt-5">
@@ -888,7 +913,8 @@
 
                 </div>
 
-                <div class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
+                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1400"
+                    class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
                     <a href="#" class="-mt-10 overflow-hidden rounded-lg "><img
                             class="rounded-lg hover:scale-110 transition"
                             src="https://static.roocket.ir/images/cover/2023/12/16/5bXkwppbwaAIC7LQPqkfr9MSFjkA04NixdFNVwZu.jpg"
@@ -907,7 +933,8 @@
 
                     <!-- tozih -->
                     <p class="text-[#808FA3] text-xs">
-                        در دوره آموزشی RESTful API در لاراول شیوه پیاده‌سازی REST API در پروژه‌های لاراولی را به صورت عملی و کاربردی (براساس نیاز بازار کار) یاد خواهید گرفت.
+                        در دوره آموزشی RESTful API در لاراول شیوه پیاده‌سازی REST API در پروژه‌های لاراولی را به صورت
+                        عملی و کاربردی (براساس نیاز بازار کار) یاد خواهید گرفت.
                     </p>
 
 
@@ -924,7 +951,7 @@
                             ویژه</span>
                     </div>
                     <!-- price -->
-                    <div class="flex justify-between ">
+                    <div class="flex justify-between gap-1">
                         <!-- r price -->
                         <div class="flex gap-2">
                             <div
@@ -963,7 +990,8 @@
 
                 </div>
 
-                <div class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
+                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1600"
+                    class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
                     <a href="#" class="-mt-10 overflow-hidden rounded-lg "><img
                             class="rounded-lg hover:scale-110 transition"
                             src="https://static.roocket.ir/images/cover/2024/3/17/cjrvYIIKwBOgP9NlKHeWYi4bXIcwIe9UQHZNlAbs.jpg"
@@ -982,7 +1010,8 @@
 
                     <!-- tozih -->
                     <p class="text-[#808FA3] text-xs">
-                        در دوره آموزش جامع Eloquent در لاراول از ابتدایی ترین مفاهیم تا مفاهیم پیشرفته تر و پیچیده مرتبط با Eloquent به شکل کاربردی و در قالب مثال ها و سناریو...
+                        در دوره آموزش جامع Eloquent در لاراول از ابتدایی ترین مفاهیم تا مفاهیم پیشرفته تر و پیچیده مرتبط
+                        با Eloquent به شکل کاربردی و در قالب مثال ها و سناریو...
                     </p>
 
 
@@ -999,7 +1028,7 @@
                             ویژه</span>
                     </div>
                     <!-- price -->
-                    <div class="flex justify-between ">
+                    <div class="flex justify-between gap-1">
                         <!-- r price -->
                         <div class="flex gap-2">
                             <div
@@ -1038,7 +1067,8 @@
 
                 </div>
 
-                <div class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
+                <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1800"
+                    class="bg-white dark:bg-[#1B344D] sm:w-8/12 md:w-5/12  lg:w-[20rem] xl:w-[18rem]  flex flex-col px-4 rounded-lg gap-5 mt-20">
                     <a href="#" class="-mt-10 overflow-hidden rounded-lg "><img
                             class="rounded-lg hover:scale-110 transition"
                             src="https://static.roocket.ir/images/cover/2024/3/16/c8hi7JBefdfRufQj0uYhfgZMjAM0eznraYDb3TVc.jpg"
@@ -1057,7 +1087,8 @@
 
                     <!-- tozih -->
                     <p class="text-[#808FA3] text-sm">
-                        آموزش پروژه محور Tailwind CSS به شما آموزش میدهد که چطور از tailwind به شکل حرفه‌ای و کامل در پروژه‌های پیش رو خود استفاده کنید
+                        آموزش پروژه محور Tailwind CSS به شما آموزش میدهد که چطور از tailwind به شکل حرفه‌ای و کامل در
+                        پروژه‌های پیش رو خود استفاده کنید
                     </p>
 
 
@@ -1074,7 +1105,7 @@
                             ویژه</span>
                     </div>
                     <!-- price -->
-                    <div class="flex justify-between ">
+                    <div class="flex justify-between gap-1 ">
                         <!-- r price -->
                         <div class="flex gap-2">
                             <div
@@ -1126,9 +1157,11 @@
 
         <!-- masir haye yad giri -->
 
-        <section class="flex flex-wrap mt-32">
+        <section class="flex flex-wrap mt-32 ">
             <!-- title -->
             <div class="flex flex-wrap w-full ">
+
+
                 <div class="w-6/12 flex md:ps-12 ps-3">
                     <svg class="text-dark-550 dark:text-white ml-4" width="37" height="34" viewBox="0 0 37 34"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1148,177 +1181,316 @@
 
             <!-- item -->
 
-            <section class="flex flex-wrap justify-center w-full mt-20 gap-5">
+            <section class="splide mt-10  w-full flex items-center  " aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide flex justify-center">
 
-                <!-- box item -->
-                
-                <div class="w-[24rem] md:w-5/12 lg:w-3/12  bg-[#F3F4F6] flex flex-col gap-9 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-white transition dark:bg-[#0E2338] mt-10">
-                    <div class="flex h-10 justify-between mx-3 mt-5">
-                        <svg class=" h-50 text-black bg-yellow-300 w-12 p-2 shadow-2xl rounded-md"
-                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.418 30.106">
-                            <g id="javascript-js-seeklogo.com" transform="translate(-67.311 -116.153)">
-                                <path fill="currentColor"
-                                    d="M67.311,141.76l4.924-2.98c.95,1.684,1.814,3.109,3.887,3.109,1.987,0,3.24-.777,3.24-3.8v-20.56H85.41v20.646c0,6.263-3.671,9.114-9.028,9.114a9.385,9.385,0,0,1-9.071-5.529"
-                                    transform="translate(0 -1.03)"></path>
-                                <path fill="currentColor"
-                                    d="M152.381,140.082l4.924-2.851c1.3,2.117,2.981,3.672,5.961,3.672,2.506,0,4.1-1.253,4.1-2.981,0-2.073-1.641-2.808-4.406-4.017l-1.511-.648c-4.363-1.857-7.257-4.19-7.257-9.114,0-4.535,3.456-7.991,8.855-7.991,3.844,0,6.609,1.339,8.6,4.838l-4.708,3.024c-1.037-1.857-2.159-2.591-3.887-2.591a2.631,2.631,0,0,0-2.894,2.591c0,1.814,1.123,2.548,3.715,3.672l1.512.648c5.14,2.2,8.034,4.449,8.034,9.5,0,5.443-4.276,8.423-10.021,8.423-5.615,0-9.243-2.678-11.014-6.177"
-                                    transform="translate(-63.687)"></path>
-                            </g>
-                        </svg>
+                            <div
+                                class="w-[24rem]  md:w-5/12 lg:w-11/12  bg-[#F3F4F6] flex flex-col gap-9 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-white transition dark:bg-[#0E2338] mt-10">
+                                <div class="flex h-10 justify-between mx-3 mt-5">
+                                    <svg class=" h-50 text-black bg-yellow-300 w-12 p-2 shadow-2xl rounded-md"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.418 30.106">
+                                        <g id="javascript-js-seeklogo.com" transform="translate(-67.311 -116.153)">
+                                            <path fill="currentColor"
+                                                d="M67.311,141.76l4.924-2.98c.95,1.684,1.814,3.109,3.887,3.109,1.987,0,3.24-.777,3.24-3.8v-20.56H85.41v20.646c0,6.263-3.671,9.114-9.028,9.114a9.385,9.385,0,0,1-9.071-5.529"
+                                                transform="translate(0 -1.03)"></path>
+                                            <path fill="currentColor"
+                                                d="M152.381,140.082l4.924-2.851c1.3,2.117,2.981,3.672,5.961,3.672,2.506,0,4.1-1.253,4.1-2.981,0-2.073-1.641-2.808-4.406-4.017l-1.511-.648c-4.363-1.857-7.257-4.19-7.257-9.114,0-4.535,3.456-7.991,8.855-7.991,3.844,0,6.609,1.339,8.6,4.838l-4.708,3.024c-1.037-1.857-2.159-2.591-3.887-2.591a2.631,2.631,0,0,0-2.894,2.591c0,1.814,1.123,2.548,3.715,3.672l1.512.648c5.14,2.2,8.034,4.449,8.034,9.5,0,5.443-4.276,8.423-10.021,8.423-5.615,0-9.243-2.678-11.014-6.177"
+                                                transform="translate(-63.687)"></path>
+                                        </g>
+                                    </svg>
 
-                        <div
-                            class="flex flex-wrap rounded-md mt-1 h-7 border border-gray-600 dark:border-blue-700 justify-center items-center">
-                            <svg class="ml-2 " width="25" height="26" viewBox="0 0 25 26" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle opacity="0.15" cx="13.0035" cy="14.2262" r="8.07682"
-                                    transform="rotate(-36.651 13.0035 14.2262)" fill="#3B82F6"></circle>
-                                <path
-                                    d="M3.15389 7.70712C7.35899 10.1461 7.88486 10.1461 12.0899 7.70712C16.295 5.26812 16.295 5.26812 12.0899 2.82914C7.88486 0.390149 7.35899 0.390142 3.15389 2.82914C1.05134 4.04863 6.10352e-05 4.65838 6.10352e-05 5.26813V10.7559C6.10352e-05 11.0926 0.273054 11.3656 0.609809 11.3656C0.946563 11.3656 1.21956 11.0926 1.21956 10.7559L1.21956 6.77631C1.21956 6.67967 1.32672 6.62118 1.40856 6.67255C1.87465 6.96515 2.45643 7.30259 3.15389 7.70712Z"
-                                    fill="#3B82F6"></path>
-                                <path
-                                    d="M3.15389 8.31691C7.35899 10.7559 7.88486 10.7559 12.0899 8.31691L12.3298 8.17775C12.5202 8.06725 12.7602 8.18843 12.7742 8.4081C12.7953 8.74004 12.8048 9.11436 12.8048 9.53637C12.8048 12.5851 11.5853 13.1949 7.60095 13.1949C3.35013 13.1949 2.43905 12.5851 2.43905 9.53637C2.43905 9.11456 2.44809 8.74039 2.46848 8.40857C2.48201 8.18842 2.72242 8.06653 2.91317 8.17725L3.15389 8.31691Z"
-                                    fill="#3B82F6"></path>
-                            </svg>
-                            <span class="font-semibold text-xs dark:text-white pe-1 ">شامل 8 دوره</span>
+                                    <div
+                                        class="flex flex-wrap rounded-md mt-1 h-7 border border-gray-600 dark:border-blue-700 justify-center items-center">
+                                        <svg class="ml-2 " width="25" height="26" viewBox="0 0 25 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle opacity="0.15" cx="13.0035" cy="14.2262" r="8.07682"
+                                                transform="rotate(-36.651 13.0035 14.2262)" fill="#3B82F6"></circle>
+                                            <path
+                                                d="M3.15389 7.70712C7.35899 10.1461 7.88486 10.1461 12.0899 7.70712C16.295 5.26812 16.295 5.26812 12.0899 2.82914C7.88486 0.390149 7.35899 0.390142 3.15389 2.82914C1.05134 4.04863 6.10352e-05 4.65838 6.10352e-05 5.26813V10.7559C6.10352e-05 11.0926 0.273054 11.3656 0.609809 11.3656C0.946563 11.3656 1.21956 11.0926 1.21956 10.7559L1.21956 6.77631C1.21956 6.67967 1.32672 6.62118 1.40856 6.67255C1.87465 6.96515 2.45643 7.30259 3.15389 7.70712Z"
+                                                fill="#3B82F6"></path>
+                                            <path
+                                                d="M3.15389 8.31691C7.35899 10.7559 7.88486 10.7559 12.0899 8.31691L12.3298 8.17775C12.5202 8.06725 12.7602 8.18843 12.7742 8.4081C12.7953 8.74004 12.8048 9.11436 12.8048 9.53637C12.8048 12.5851 11.5853 13.1949 7.60095 13.1949C3.35013 13.1949 2.43905 12.5851 2.43905 9.53637C2.43905 9.11456 2.44809 8.74039 2.46848 8.40857C2.48201 8.18842 2.72242 8.06653 2.91317 8.17725L3.15389 8.31691Z"
+                                                fill="#3B82F6"></path>
+                                        </svg>
+                                        <span class="font-semibold text-xs dark:text-white pe-1 ">شامل 8 دوره</span>
 
-                        </div>
-                    </div>
-                    <span class="text-2xl font-bold ms-3 dark:text-white ">آموزش جاوااسکریپت</span>
+                                    </div>
+                                </div>
+                                <span class="text-2xl font-bold ms-3 dark:text-white ">آموزش جاوااسکریپت</span>
 
 
-                    <p class="text-[#9EA8B8] text-sm ms-3">
-                        آموزش جاوااسکریپت از صفر تا صد با بیان مباحث <br>
-                        مقدماتی تا پیشرفته به همراه مدرسین مجرب در مجموعه <br>
-                        آموزشی راکت
-                    </p>
+                                <p class="text-[#9EA8B8] text-sm ms-3">
+                                    آموزش جاوااسکریپت از صفر تا صد با بیان مباحث <br>
+                                    مقدماتی تا پیشرفته به همراه مدرسین مجرب در مجموعه <br>
+                                    آموزشی راکت
+                                </p>
 
-                    <div
-                        class="flex justify-end pe-6 items-center text-center font-bold text-[#4387F6] hover:text-gray-500 py-4 transition">
-                        <a href="#">مشاهده مسیر یادگیری</a>
-                        <svg class="mr-1" width="25" height="25" viewBox="0 0 25 25" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill="currentColor" opacity="0.4"
-                                d="M16.0371 11.2149L19.7925 10.8828C20.6352 10.8828 21.3185 11.5727 21.3185 12.4237C21.3185 13.2746 20.6352 13.9646 19.7925 13.9646L16.0371 13.6325C15.376 13.6325 14.84 13.0913 14.84 12.4237C14.84 11.755 15.376 11.2149 16.0371 11.2149Z">
-                            </path>
-                            <path fill="currentColor"
-                                d="M3.42647 11.2759C3.48516 11.2166 3.70443 10.9662 3.91042 10.7582C5.11199 9.45544 8.24938 7.3252 9.89061 6.67327C10.1398 6.56928 10.7699 6.34787 11.1077 6.33221C11.43 6.33221 11.7378 6.40714 12.0313 6.55474C12.3979 6.76162 12.6902 7.08814 12.8519 7.47281C12.9549 7.73895 13.1166 8.53849 13.1166 8.55302C13.2772 9.42636 13.3647 10.8465 13.3647 12.4165C13.3647 13.9105 13.2772 15.2725 13.1454 16.1604C13.131 16.176 12.9693 17.1679 12.7932 17.5078C12.4709 18.1296 11.8408 18.5142 11.1664 18.5142H11.1077C10.668 18.4997 9.74443 18.1139 9.74443 18.1005C8.19068 17.4486 5.1275 15.4212 3.89602 14.0737C3.89602 14.0737 3.54829 13.7271 3.39767 13.5113C3.1629 13.2004 3.04551 12.8157 3.04551 12.431C3.04551 12.0016 3.17729 11.6024 3.42647 11.2759Z">
-                            </path>
-                        </svg>
-                    </div>
+                                <div
+                                    class="flex justify-end pe-6 items-center text-center font-bold text-[#4387F6] hover:text-gray-500 py-4 transition">
+                                    <a href="#">مشاهده مسیر یادگیری</a>
+                                    <svg class="mr-1" width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" opacity="0.4"
+                                            d="M16.0371 11.2149L19.7925 10.8828C20.6352 10.8828 21.3185 11.5727 21.3185 12.4237C21.3185 13.2746 20.6352 13.9646 19.7925 13.9646L16.0371 13.6325C15.376 13.6325 14.84 13.0913 14.84 12.4237C14.84 11.755 15.376 11.2149 16.0371 11.2149Z">
+                                        </path>
+                                        <path fill="currentColor"
+                                            d="M3.42647 11.2759C3.48516 11.2166 3.70443 10.9662 3.91042 10.7582C5.11199 9.45544 8.24938 7.3252 9.89061 6.67327C10.1398 6.56928 10.7699 6.34787 11.1077 6.33221C11.43 6.33221 11.7378 6.40714 12.0313 6.55474C12.3979 6.76162 12.6902 7.08814 12.8519 7.47281C12.9549 7.73895 13.1166 8.53849 13.1166 8.55302C13.2772 9.42636 13.3647 10.8465 13.3647 12.4165C13.3647 13.9105 13.2772 15.2725 13.1454 16.1604C13.131 16.176 12.9693 17.1679 12.7932 17.5078C12.4709 18.1296 11.8408 18.5142 11.1664 18.5142H11.1077C10.668 18.4997 9.74443 18.1139 9.74443 18.1005C8.19068 17.4486 5.1275 15.4212 3.89602 14.0737C3.89602 14.0737 3.54829 13.7271 3.39767 13.5113C3.1629 13.2004 3.04551 12.8157 3.04551 12.431C3.04551 12.0016 3.17729 11.6024 3.42647 11.2759Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+
+
+                        </li>
+
+                        <li class="splide__slide flex justify-center">
+
+                            <div
+                                class="w-[24rem] md:w-5/12 lg:w-11/12  bg-[#F3F4F6] flex flex-col gap-9 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-white transition dark:bg-[#0E2338] mt-10">
+                                <div class="flex h-10 justify-between mx-3 mt-5">
+                                    <svg class="w-12 bg-green-500 p-2 rounded-md shadow-2xl shadow-green-500 text-white "
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.68 15.64">
+                                        <path
+                                            d="M13.94,9.2c-.32,1.84-.62,3.58-.86,5.4h-.06c-.2-1.8-.5-3.5-.84-5.3l-1.3-6.68H7.96l-1.4,6.6c-.4,1.92-.78,3.7-1,5.42H5.5C5.28,13,4.98,11.1,4.66,9.26L3.48,2.62H.34L3.72,18H6.84l1.5-6.52c.38-1.62.66-3.16.92-4.9H9.3c.2,1.74.44,3.3.78,4.9L11.4,18h3.14L18.18,2.62H15.2Zm8.98,6.32V11.24h5.02V8.82H22.92V5.1h5.32V2.62H19.96V18h8.6V15.52Zm7.92,2.42a24.183,24.183,0,0,0,3.28.2c2.74,0,4.46-.5,5.5-1.44a4.228,4.228,0,0,0,1.4-3.16,3.793,3.793,0,0,0-3-3.76V9.7a3.517,3.517,0,0,0,2.46-3.32,3.4,3.4,0,0,0-1.5-2.9,7.1,7.1,0,0,0-4.24-.98,21.93,21.93,0,0,0-3.9.32ZM33.78,4.8a6.092,6.092,0,0,1,1.3-.1c1.32,0,2.46.5,2.46,2.02,0,1.26-1,2.16-2.68,2.16H33.78Zm1.1,6.24c1.52,0,3.04.64,3.04,2.42,0,1.74-1.36,2.46-2.96,2.46a6.136,6.136,0,0,1-1.18-.08v-4.8Z"
+                                            transform="translate(-0.34 -2.5)" fill="currentColor"></path>
+                                    </svg>
+
+                                    <div
+                                        class="flex flex-wrap rounded-md mt-1 h-7 border border-gray-600 dark:border-blue-700 justify-center items-center">
+                                        <svg class="ml-2 " width="25" height="26" viewBox="0 0 25 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle opacity="0.15" cx="13.0035" cy="14.2262" r="8.07682"
+                                                transform="rotate(-36.651 13.0035 14.2262)" fill="#3B82F6"></circle>
+                                            <path
+                                                d="M3.15389 7.70712C7.35899 10.1461 7.88486 10.1461 12.0899 7.70712C16.295 5.26812 16.295 5.26812 12.0899 2.82914C7.88486 0.390149 7.35899 0.390142 3.15389 2.82914C1.05134 4.04863 6.10352e-05 4.65838 6.10352e-05 5.26813V10.7559C6.10352e-05 11.0926 0.273054 11.3656 0.609809 11.3656C0.946563 11.3656 1.21956 11.0926 1.21956 10.7559L1.21956 6.77631C1.21956 6.67967 1.32672 6.62118 1.40856 6.67255C1.87465 6.96515 2.45643 7.30259 3.15389 7.70712Z"
+                                                fill="#3B82F6"></path>
+                                            <path
+                                                d="M3.15389 8.31691C7.35899 10.7559 7.88486 10.7559 12.0899 8.31691L12.3298 8.17775C12.5202 8.06725 12.7602 8.18843 12.7742 8.4081C12.7953 8.74004 12.8048 9.11436 12.8048 9.53637C12.8048 12.5851 11.5853 13.1949 7.60095 13.1949C3.35013 13.1949 2.43905 12.5851 2.43905 9.53637C2.43905 9.11456 2.44809 8.74039 2.46848 8.40857C2.48201 8.18842 2.72242 8.06653 2.91317 8.17725L3.15389 8.31691Z"
+                                                fill="#3B82F6"></path>
+                                        </svg>
+                                        <span class="font-semibold text-xs dark:text-white pe-1 ">شامل 8 دوره</span>
+
+                                    </div>
+                                </div>
+                                <span class="text-2xl font-bold ms-3 dark:text-white "> طراحی سایت</span>
+
+
+                                <p class="text-[#9EA8B8] text-sm ms-3">
+                                    آموزش طراحی سایت صفر تا صد پروژه محور به صورت <br>
+                                    کامل را از طریق مدرسین مجرب مجموعه اموزشی راکت یاد <br>
+                                    بگیرید
+                                </p>
+
+                                <div
+                                    class="flex justify-end pe-6 items-center text-center font-bold text-[#4387F6] hover:text-gray-500 py-4 transition">
+                                    <a href="#">مشاهده مسیر یادگیری</a>
+                                    <svg class="mr-1" width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" opacity="0.4"
+                                            d="M16.0371 11.2149L19.7925 10.8828C20.6352 10.8828 21.3185 11.5727 21.3185 12.4237C21.3185 13.2746 20.6352 13.9646 19.7925 13.9646L16.0371 13.6325C15.376 13.6325 14.84 13.0913 14.84 12.4237C14.84 11.755 15.376 11.2149 16.0371 11.2149Z">
+                                        </path>
+                                        <path fill="currentColor"
+                                            d="M3.42647 11.2759C3.48516 11.2166 3.70443 10.9662 3.91042 10.7582C5.11199 9.45544 8.24938 7.3252 9.89061 6.67327C10.1398 6.56928 10.7699 6.34787 11.1077 6.33221C11.43 6.33221 11.7378 6.40714 12.0313 6.55474C12.3979 6.76162 12.6902 7.08814 12.8519 7.47281C12.9549 7.73895 13.1166 8.53849 13.1166 8.55302C13.2772 9.42636 13.3647 10.8465 13.3647 12.4165C13.3647 13.9105 13.2772 15.2725 13.1454 16.1604C13.131 16.176 12.9693 17.1679 12.7932 17.5078C12.4709 18.1296 11.8408 18.5142 11.1664 18.5142H11.1077C10.668 18.4997 9.74443 18.1139 9.74443 18.1005C8.19068 17.4486 5.1275 15.4212 3.89602 14.0737C3.89602 14.0737 3.54829 13.7271 3.39767 13.5113C3.1629 13.2004 3.04551 12.8157 3.04551 12.431C3.04551 12.0016 3.17729 11.6024 3.42647 11.2759Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+
+
+                        </li>
+
+                        <li class="splide__slide flex justify-center">
+
+                            <div
+                                class="w-[24rem] md:w-5/12 lg:w-11/12  bg-[#F3F4F6] flex flex-col gap-9 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-white transition dark:bg-[#0E2338] mt-10">
+                                <div class="flex h-10 justify-between mx-3 mt-5">
+                                    <svg class="w-12 bg-[#FF2D20] p-2 rounded-md shadow-2xl shadow-green-500 text-white "
+                                        viewBox="0 0 256 264" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                        <g>
+                                            <path
+                                                d="M255.855641,59.619717 C255.950565,59.9710596 256,60.3333149 256,60.6972536 L256,117.265345 C256,118.743206 255.209409,120.108149 253.927418,120.843385 L206.448786,148.178786 L206.448786,202.359798 C206.448786,203.834322 205.665123,205.195421 204.386515,205.937838 L105.27893,262.990563 C105.05208,263.119455 104.804608,263.201946 104.557135,263.289593 C104.464333,263.320527 104.376687,263.377239 104.278729,263.403017 C103.585929,263.58546 102.857701,263.58546 102.164901,263.403017 C102.051476,263.372083 101.948363,263.310215 101.840093,263.26897 C101.613244,263.186479 101.376082,263.1143 101.159544,262.990563 L2.07258227,205.937838 C0.7913718,205.201819 0,203.837372 0,202.359798 L0,32.6555248 C0,32.2843161 0.0515567729,31.9234187 0.144358964,31.5728326 C0.175293028,31.454252 0.24747251,31.3459828 0.288717928,31.2274022 C0.366053087,31.0108638 0.438232569,30.7891697 0.55165747,30.5880982 C0.628992629,30.4540506 0.742417529,30.3457814 0.83521972,30.2220451 C0.953800298,30.0570635 1.06206952,29.8869261 1.20127281,29.7425672 C1.31985339,29.6239866 1.4745237,29.5363401 1.60857131,29.4332265 C1.75808595,29.3094903 1.89213356,29.1754427 2.06227091,29.0774848 L2.06742659,29.0774848 L51.6134853,0.551122364 C52.8901903,-0.183535768 54.4613221,-0.183535768 55.7380271,0.551122364 L105.284086,29.0774848 L105.294397,29.0774848 C105.459379,29.1805983 105.598582,29.3094903 105.748097,29.4280708 C105.882144,29.5311844 106.031659,29.6239866 106.15024,29.7374115 C106.294599,29.8869261 106.397712,30.0570635 106.521448,30.2220451 C106.609095,30.3457814 106.727676,30.4540506 106.799855,30.5880982 C106.918436,30.7943253 106.985459,31.0108638 107.06795,31.2274022 C107.109196,31.3459828 107.181375,31.454252 107.212309,31.5779883 C107.307234,31.9293308 107.355765,32.2915861 107.356668,32.6555248 L107.356668,138.651094 L148.643332,114.878266 L148.643332,60.6920979 C148.643332,60.3312005 148.694889,59.9651474 148.787691,59.619717 C148.823781,59.4959808 148.890804,59.3877116 148.93205,59.269131 C149.014541,59.0525925 149.08672,58.8308984 149.200145,58.629827 C149.27748,58.4957794 149.390905,58.3875102 149.478552,58.2637739 C149.602288,58.0987922 149.705401,57.9286549 149.84976,57.7842959 C149.968341,57.6657153 150.117856,57.5780688 150.251903,57.4749553 C150.406573,57.351219 150.540621,57.2171714 150.705603,57.1192136 L150.710758,57.1192136 L200.261973,28.5928511 C201.538395,27.8571345 203.110093,27.8571345 204.386515,28.5928511 L253.932573,57.1192136 C254.107866,57.2223271 254.241914,57.351219 254.396584,57.4697996 C254.525476,57.5729132 254.674991,57.6657153 254.793572,57.7791402 C254.93793,57.9286549 255.041044,58.0987922 255.16478,58.2637739 C255.257582,58.3875102 255.371007,58.4957794 255.443187,58.629827 C255.561767,58.8308984 255.628791,59.0525925 255.711282,59.269131 C255.757683,59.3877116 255.824707,59.4959808 255.855641,59.619717 Z M247.740605,114.878266 L247.740605,67.8378666 L230.402062,77.8192579 L206.448786,91.6106946 L206.448786,138.651094 L247.745761,114.878266 L247.740605,114.878266 Z M198.194546,199.97272 L198.194546,152.901386 L174.633101,166.357704 L107.351512,204.757188 L107.351512,252.27191 L198.194546,199.97272 Z M8.25939501,39.7961379 L8.25939501,199.97272 L99.0921175,252.266755 L99.0921175,204.762344 L51.6392637,177.906421 L51.6237967,177.89611 L51.603174,177.885798 C51.443348,177.792996 51.3093004,177.658949 51.1597857,177.545524 C51.0308938,177.44241 50.8813791,177.359919 50.7679542,177.246494 L50.7576429,177.231027 C50.6235953,177.102135 50.5307931,176.942309 50.4173682,176.79795 C50.3142546,176.658747 50.1905184,176.540167 50.1080276,176.395808 L50.1028719,176.380341 C50.0100697,176.22567 49.9533572,176.040066 49.8863334,175.864773 C49.8193096,175.710103 49.7316631,175.565744 49.6904177,175.400762 L49.6904177,175.395606 C49.6388609,175.19969 49.6285496,174.993463 49.6079269,174.792392 C49.5873041,174.637722 49.5460587,174.483051 49.5460587,174.328381 L49.5460587,174.31807 L49.5460587,63.5689658 L25.5979377,49.7723734 L8.25939501,39.8012935 L8.25939501,39.7961379 Z M53.6809119,8.89300821 L12.3994039,32.6555248 L53.6706006,56.4180414 L94.9469529,32.6503692 L53.6706006,8.89300821 L53.6809119,8.89300821 Z M75.1491521,157.19091 L99.0972731,143.404629 L99.0972731,39.7961379 L81.7587304,49.7775291 L57.8054537,63.5689658 L57.8054537,167.177457 L75.1491521,157.19091 Z M202.324244,36.934737 L161.047891,60.6972536 L202.324244,84.4597702 L243.59544,60.6920979 L202.324244,36.934737 Z M198.194546,91.6106946 L174.24127,77.8192579 L156.902727,67.8378666 L156.902727,114.878266 L180.850848,128.664547 L198.194546,138.651094 L198.194546,91.6106946 Z M103.216659,197.616575 L163.759778,163.052915 L194.023603,145.781396 L152.778185,122.034346 L105.289242,149.374903 L62.0073307,174.292291 L103.216659,197.616575 Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                    </svg>
+
+                                    <div
+                                        class="flex flex-wrap rounded-md mt-1 h-7 border border-gray-600 dark:border-blue-700 justify-center items-center">
+                                        <svg class="ml-2 " width="25" height="26" viewBox="0 0 25 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle opacity="0.15" cx="13.0035" cy="14.2262" r="8.07682"
+                                                transform="rotate(-36.651 13.0035 14.2262)" fill="#3B82F6"></circle>
+                                            <path
+                                                d="M3.15389 7.70712C7.35899 10.1461 7.88486 10.1461 12.0899 7.70712C16.295 5.26812 16.295 5.26812 12.0899 2.82914C7.88486 0.390149 7.35899 0.390142 3.15389 2.82914C1.05134 4.04863 6.10352e-05 4.65838 6.10352e-05 5.26813V10.7559C6.10352e-05 11.0926 0.273054 11.3656 0.609809 11.3656C0.946563 11.3656 1.21956 11.0926 1.21956 10.7559L1.21956 6.77631C1.21956 6.67967 1.32672 6.62118 1.40856 6.67255C1.87465 6.96515 2.45643 7.30259 3.15389 7.70712Z"
+                                                fill="#3B82F6"></path>
+                                            <path
+                                                d="M3.15389 8.31691C7.35899 10.7559 7.88486 10.7559 12.0899 8.31691L12.3298 8.17775C12.5202 8.06725 12.7602 8.18843 12.7742 8.4081C12.7953 8.74004 12.8048 9.11436 12.8048 9.53637C12.8048 12.5851 11.5853 13.1949 7.60095 13.1949C3.35013 13.1949 2.43905 12.5851 2.43905 9.53637C2.43905 9.11456 2.44809 8.74039 2.46848 8.40857C2.48201 8.18842 2.72242 8.06653 2.91317 8.17725L3.15389 8.31691Z"
+                                                fill="#3B82F6"></path>
+                                        </svg>
+                                        <span class="font-semibold text-xs dark:text-white pe-1 ">شامل 8 دوره</span>
+
+                                    </div>
+                                </div>
+                                <span class="text-2xl font-bold ms-3 dark:text-white ">آموزش لاراول</span>
+
+
+                                <p class="text-[#9EA8B8] text-sm ms-3">
+
+                                    لاراول پر استفاده‌ترین فریمورک زبان برنامه نویسی PHP بوده و در سال‌های اخیر توسط
+                                    شرکت‌ها و استارتاپ‌های بسیار زیادی <br> مورد..
+
+                                </p>
+
+                                <div
+                                    class="flex justify-end pe-6 items-center text-center font-bold text-[#4387F6] hover:text-gray-500 py-4 transition">
+                                    <a href="#">مشاهده مسیر یادگیری</a>
+                                    <svg class="mr-1" width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" opacity="0.4"
+                                            d="M16.0371 11.2149L19.7925 10.8828C20.6352 10.8828 21.3185 11.5727 21.3185 12.4237C21.3185 13.2746 20.6352 13.9646 19.7925 13.9646L16.0371 13.6325C15.376 13.6325 14.84 13.0913 14.84 12.4237C14.84 11.755 15.376 11.2149 16.0371 11.2149Z">
+                                        </path>
+                                        <path fill="currentColor"
+                                            d="M3.42647 11.2759C3.48516 11.2166 3.70443 10.9662 3.91042 10.7582C5.11199 9.45544 8.24938 7.3252 9.89061 6.67327C10.1398 6.56928 10.7699 6.34787 11.1077 6.33221C11.43 6.33221 11.7378 6.40714 12.0313 6.55474C12.3979 6.76162 12.6902 7.08814 12.8519 7.47281C12.9549 7.73895 13.1166 8.53849 13.1166 8.55302C13.2772 9.42636 13.3647 10.8465 13.3647 12.4165C13.3647 13.9105 13.2772 15.2725 13.1454 16.1604C13.131 16.176 12.9693 17.1679 12.7932 17.5078C12.4709 18.1296 11.8408 18.5142 11.1664 18.5142H11.1077C10.668 18.4997 9.74443 18.1139 9.74443 18.1005C8.19068 17.4486 5.1275 15.4212 3.89602 14.0737C3.89602 14.0737 3.54829 13.7271 3.39767 13.5113C3.1629 13.2004 3.04551 12.8157 3.04551 12.431C3.04551 12.0016 3.17729 11.6024 3.42647 11.2759Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+
+
+                        </li>
+
+                        <li class="splide__slide flex justify-center">
+
+                            <div
+                                class="w-[24rem] md:w-5/12 lg:w-11/12  bg-[#F3F4F6] flex flex-col gap-9 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-white transition dark:bg-[#0E2338] mt-10">
+                                <div class="flex h-10 justify-between mx-3 mt-5">
+                                    <svg class="w-12 bg-[#6082BB] p-2 rounded-md shadow-2xl shadow-green-500 text-white "
+                                        viewBox="0 0 34 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M18.361 12.4776C18.2904 12.4776 18.2234 12.4451 18.1786 12.389C18.1336 12.333 18.1154 12.2592 18.1288 12.1878L19.1167 6.95663C19.2107 6.45914 19.1875 6.10206 19.0515 5.95118C18.9683 5.85895 18.7182 5.70426 17.9788 5.70426H16.1891L14.947 12.2806C14.9254 12.395 14.828 12.4776 14.7148 12.4776H12.2315C12.1608 12.4776 12.0939 12.4451 12.0489 12.389C12.004 12.333 11.9858 12.2591 11.9993 12.1878L14.2326 0.36484C14.2542 0.250546 14.3515 0.167969 14.4647 0.167969H16.9481C17.0187 0.167969 17.0857 0.200415 17.1306 0.256468C17.1755 0.3126 17.1938 0.386336 17.1803 0.45772L16.6413 3.31128H18.5667C20.0334 3.31128 21.028 3.57735 21.6073 4.12473C22.1978 4.68315 22.3821 5.57601 22.155 6.77882L21.116 12.2806C21.0944 12.395 20.9971 12.4776 20.8838 12.4776H18.361ZM6.19565 10.1252C7.15917 10.1252 7.87847 9.94471 8.33359 9.58893C8.78384 9.23679 9.09482 8.62671 9.25781 7.7757C9.40979 6.98026 9.35189 6.42485 9.08579 6.12511C8.81371 5.81898 8.22546 5.66372 7.33741 5.66372H5.79763L4.94401 10.1252H6.19565ZM1.15944 15.6209C1.08796 15.6209 1.02008 15.5885 0.974641 15.5323C0.929118 15.4763 0.910673 15.4025 0.924328 15.3312L3.18661 3.50818C3.20849 3.39388 3.30712 3.3113 3.42179 3.3113H8.29757C9.82993 3.3113 10.9705 3.73393 11.6874 4.56757C12.4081 5.4056 12.6307 6.57702 12.3489 8.04923C12.2342 8.64902 12.0369 9.20605 11.7626 9.70476C11.488 10.204 11.125 10.666 10.6836 11.0781C10.1553 11.5804 9.55729 11.9446 8.90786 12.1589C8.26874 12.3704 7.44794 12.4776 6.4683 12.4776H4.494L3.93018 15.424C3.9083 15.5383 3.80975 15.6209 3.69508 15.6209H1.15944ZM28.9467 9.58893C28.4741 9.94471 27.7272 10.1252 26.7267 10.1252H25.427L26.3134 5.66372H27.9123C28.8344 5.66372 29.4452 5.81898 29.7278 6.12511C30.0041 6.42485 30.0643 6.98026 29.9065 7.7757C29.7371 8.62679 29.4142 9.23687 28.9467 9.58893ZM21.3055 15.5323C21.3526 15.5885 21.4231 15.6209 21.4973 15.6209H24.1302C24.2494 15.6209 24.3517 15.5383 24.3745 15.424L24.9597 12.4776H27.0098C28.0271 12.4776 28.8794 12.3704 29.543 12.1589C30.2173 11.9446 30.8383 11.5804 31.3869 11.0781C31.8452 10.666 32.2221 10.204 32.5073 9.70476C32.7921 9.20605 32.9969 8.64902 33.1161 8.04923C33.4087 6.57694 33.1777 5.40552 32.4293 4.56757C31.6848 3.73393 30.5005 3.3113 28.9093 3.3113H23.8465C23.7274 3.3113 23.625 3.39388 23.6022 3.50818L21.2531 15.3312C21.239 15.4025 21.2582 15.4763 21.3055 15.5323Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+
+                                    <div
+                                        class="flex flex-wrap rounded-md mt-1 h-7 border border-gray-600 dark:border-blue-700 justify-center items-center">
+                                        <svg class="ml-2 " width="25" height="26" viewBox="0 0 25 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle opacity="0.15" cx="13.0035" cy="14.2262" r="8.07682"
+                                                transform="rotate(-36.651 13.0035 14.2262)" fill="#3B82F6"></circle>
+                                            <path
+                                                d="M3.15389 7.70712C7.35899 10.1461 7.88486 10.1461 12.0899 7.70712C16.295 5.26812 16.295 5.26812 12.0899 2.82914C7.88486 0.390149 7.35899 0.390142 3.15389 2.82914C1.05134 4.04863 6.10352e-05 4.65838 6.10352e-05 5.26813V10.7559C6.10352e-05 11.0926 0.273054 11.3656 0.609809 11.3656C0.946563 11.3656 1.21956 11.0926 1.21956 10.7559L1.21956 6.77631C1.21956 6.67967 1.32672 6.62118 1.40856 6.67255C1.87465 6.96515 2.45643 7.30259 3.15389 7.70712Z"
+                                                fill="#3B82F6"></path>
+                                            <path
+                                                d="M3.15389 8.31691C7.35899 10.7559 7.88486 10.7559 12.0899 8.31691L12.3298 8.17775C12.5202 8.06725 12.7602 8.18843 12.7742 8.4081C12.7953 8.74004 12.8048 9.11436 12.8048 9.53637C12.8048 12.5851 11.5853 13.1949 7.60095 13.1949C3.35013 13.1949 2.43905 12.5851 2.43905 9.53637C2.43905 9.11456 2.44809 8.74039 2.46848 8.40857C2.48201 8.18842 2.72242 8.06653 2.91317 8.17725L3.15389 8.31691Z"
+                                                fill="#3B82F6"></path>
+                                        </svg>
+                                        <span class="font-semibold text-xs dark:text-white pe-1 ">شامل 8 دوره</span>
+
+                                    </div>
+                                </div>
+                                <span class="text-2xl font-bold ms-3 dark:text-white ">آموزش PHP</span>
+
+
+                                <p class="text-[#9EA8B8] text-sm ms-3">
+                                    PHP محبوب‌ترین زبان برنامه نویسی حوزه وب است. <br> بیش از ۵۰ درصد وبسایت‌های دنیا با
+                                    استفاده از این زبان و تکنولوژی های مربوط...
+                                </p>
+
+                                <div
+                                    class="flex justify-end pe-6 items-center text-center font-bold text-[#4387F6] hover:text-gray-500 py-4 transition">
+                                    <a href="#">مشاهده مسیر یادگیری</a>
+                                    <svg class="mr-1" width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" opacity="0.4"
+                                            d="M16.0371 11.2149L19.7925 10.8828C20.6352 10.8828 21.3185 11.5727 21.3185 12.4237C21.3185 13.2746 20.6352 13.9646 19.7925 13.9646L16.0371 13.6325C15.376 13.6325 14.84 13.0913 14.84 12.4237C14.84 11.755 15.376 11.2149 16.0371 11.2149Z">
+                                        </path>
+                                        <path fill="currentColor"
+                                            d="M3.42647 11.2759C3.48516 11.2166 3.70443 10.9662 3.91042 10.7582C5.11199 9.45544 8.24938 7.3252 9.89061 6.67327C10.1398 6.56928 10.7699 6.34787 11.1077 6.33221C11.43 6.33221 11.7378 6.40714 12.0313 6.55474C12.3979 6.76162 12.6902 7.08814 12.8519 7.47281C12.9549 7.73895 13.1166 8.53849 13.1166 8.55302C13.2772 9.42636 13.3647 10.8465 13.3647 12.4165C13.3647 13.9105 13.2772 15.2725 13.1454 16.1604C13.131 16.176 12.9693 17.1679 12.7932 17.5078C12.4709 18.1296 11.8408 18.5142 11.1664 18.5142H11.1077C10.668 18.4997 9.74443 18.1139 9.74443 18.1005C8.19068 17.4486 5.1275 15.4212 3.89602 14.0737C3.89602 14.0737 3.54829 13.7271 3.39767 13.5113C3.1629 13.2004 3.04551 12.8157 3.04551 12.431C3.04551 12.0016 3.17729 11.6024 3.42647 11.2759Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+
+
+                        </li>
+
+                        <li class="splide__slide flex justify-center">
+
+                            <div
+                                class="w-[24rem] md:w-5/12 lg:w-11/12  bg-[#F3F4F6] flex flex-col gap-9 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-white transition dark:bg-[#0E2338] mt-10">
+                                <div class="flex h-10 justify-between mx-3 mt-5">
+                                    <svg class="w-12 bg-[#3D82F4] p-2 rounded-md shadow-2xl shadow-green-500 text-white "
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225.956 201.037">
+                                        <g transform="translate(-15.243 -14.514)">
+                                            <path
+                                                d="M201.025,79.674q-3.516-1.21-7.274-2.292.616-2.516,1.124-4.961c5.506-26.727,1.906-48.259-10.388-55.348-11.787-6.8-31.065.29-50.535,17.234q-2.808,2.444-5.626,5.162-1.877-1.794-3.744-3.458c-20.4-18.117-40.858-25.752-53.139-18.643C59.667,24.185,56.179,44.427,61.136,69.757q.718,3.67,1.671,7.485c-2.895.822-5.689,1.7-8.363,2.63-23.922,8.34-39.2,21.412-39.2,34.97,0,14,16.4,28.049,41.318,36.566q2.95,1.008,6.109,1.911-1.024,4.12-1.774,8.066c-4.726,24.89-1.035,44.653,10.71,51.428,12.132,6.995,32.491-.2,52.317-17.525q2.351-2.055,4.715-4.346,3.063,2.95,6.108,5.573c19.2,16.525,38.17,23.2,49.9,16.4,12.119-7.016,16.058-28.247,10.944-54.078q-.585-2.959-1.355-6.039,2.145-.634,4.2-1.313c25.9-8.582,42.757-22.457,42.757-36.648,0-13.607-15.77-26.767-40.174-35.168Z"
+                                                transform="translate(0 0)" fill="currentColor"></path>
+                                            <path
+                                                d="M195.406,142.328c-1.235.409-2.5.8-3.8,1.187a226.4,226.4,0,0,0-11.442-28.625,226.492,226.492,0,0,0,11-28.208c2.311.669,4.555,1.374,6.717,2.119,20.909,7.2,33.664,17.841,33.664,26.041,0,8.735-13.775,20.075-36.141,27.486Zm-9.28,18.389c2.261,11.422,2.584,21.749,1.086,29.822-1.346,7.254-4.052,12.09-7.4,14.027-7.121,4.122-22.349-1.236-38.772-15.368q-2.825-2.43-5.682-5.181A226.745,226.745,0,0,0,154.3,159.968a225.343,225.343,0,0,0,30.6-4.717q.691,2.788,1.223,5.466ZM92.277,203.854c-6.957,2.457-12.5,2.527-15.848.6-7.127-4.111-10.09-19.979-6.049-41.265q.694-3.657,1.649-7.5a227.029,227.029,0,0,0,30.45,4.408,235.026,235.026,0,0,0,19.4,23.964q-2.162,2.087-4.305,3.964c-8.767,7.664-17.552,13.1-25.294,15.835Zm-32.594-61.58c-11.018-3.766-20.117-8.66-26.354-14-5.6-4.8-8.434-9.564-8.434-13.431,0-8.227,12.267-18.722,32.725-25.855C60.1,88.121,62.7,87.306,65.4,86.54a231.374,231.374,0,0,0,11.013,28.537A235.219,235.219,0,0,0,65.26,144.02q-2.884-.828-5.577-1.746ZM70.608,67.9c-4.246-21.7-1.426-38.073,5.671-42.181,7.559-4.376,24.275,1.863,41.893,17.507q1.689,1.5,3.391,3.129a231.3,231.3,0,0,0-19.249,23.82,235.918,235.918,0,0,0-30.152,4.686q-.882-3.548-1.553-6.961Zm97.468,24.067q-3.354-5.793-6.871-11.3c7.209.911,14.117,2.121,20.6,3.6a205.861,205.861,0,0,1-7.232,19.457q-3.074-5.837-6.5-11.758ZM128.329,53.257a206.528,206.528,0,0,1,13.3,16.052Q135,69,128.221,68.992q-6.7,0-13.3.311c4.39-5.789,8.887-11.167,13.409-16.046Zm-40,38.78q-3.35,5.809-6.378,11.685c-2.811-6.667-5.216-13.222-7.18-19.552,6.447-1.443,13.322-2.622,20.485-3.516q-3.559,5.552-6.927,11.383ZM95.46,149.72a205.5,205.5,0,0,1-20.825-3.348c2-6.442,4.453-13.138,7.324-19.948q3.034,5.86,6.406,11.692h0q3.433,5.931,7.094,11.6ZM128.6,177.109c-4.575-4.937-9.138-10.4-13.595-16.27q6.489.255,13.22.256,6.909,0,13.64-.3A205.448,205.448,0,0,1,128.6,177.109Zm46.072-51.032a204.741,204.741,0,0,1,7.588,19.877,204.854,204.854,0,0,1-21.078,3.593q3.519-5.575,6.937-11.5,3.451-5.986,6.553-11.972Zm-14.915,7.15c-3.532,6.124-7.158,11.971-10.839,17.489-6.706.48-13.633.727-20.693.727-7.031,0-13.871-.219-20.458-.646-3.829-5.591-7.534-11.455-11.044-17.517h0c-3.5-6.046-6.722-12.143-9.641-18.206C90,109,93.21,102.894,96.69,96.858h0c3.489-6.051,7.162-11.886,10.956-17.442,6.72-.508,13.611-.773,20.575-.773h0c7,0,13.9.267,20.613.78,3.737,5.515,7.384,11.331,10.887,17.383,3.543,6.12,6.8,12.183,9.741,18.13-2.934,6.049-6.181,12.173-9.709,18.29ZM179.666,25.435c7.566,4.363,10.509,21.961,5.755,45.038-.3,1.472-.645,2.972-1.016,4.492a231.19,231.19,0,0,0-30.212-4.772,226.67,226.67,0,0,0-19.1-23.838q2.605-2.505,5.2-4.766c16.682-14.517,32.273-20.249,39.377-16.153Z"
+                                                transform="translate(2 0.001)" fill="#3d82f4"></path>
+                                            <path
+                                                d="M128.221,94.665a20.177,20.177,0,1,1-20.177,20.177,20.177,20.177,0,0,1,20.177-20.177"
+                                                fill="currentColor"></path>
+                                        </g>
+                                    </svg>
+
+                                    <div
+                                        class="flex flex-wrap rounded-md mt-1 h-7 border border-gray-600 dark:border-blue-700 justify-center items-center">
+                                        <svg class="ml-2 " width="25" height="26" viewBox="0 0 25 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle opacity="0.15" cx="13.0035" cy="14.2262" r="8.07682"
+                                                transform="rotate(-36.651 13.0035 14.2262)" fill="#3B82F6"></circle>
+                                            <path
+                                                d="M3.15389 7.70712C7.35899 10.1461 7.88486 10.1461 12.0899 7.70712C16.295 5.26812 16.295 5.26812 12.0899 2.82914C7.88486 0.390149 7.35899 0.390142 3.15389 2.82914C1.05134 4.04863 6.10352e-05 4.65838 6.10352e-05 5.26813V10.7559C6.10352e-05 11.0926 0.273054 11.3656 0.609809 11.3656C0.946563 11.3656 1.21956 11.0926 1.21956 10.7559L1.21956 6.77631C1.21956 6.67967 1.32672 6.62118 1.40856 6.67255C1.87465 6.96515 2.45643 7.30259 3.15389 7.70712Z"
+                                                fill="#3B82F6"></path>
+                                            <path
+                                                d="M3.15389 8.31691C7.35899 10.7559 7.88486 10.7559 12.0899 8.31691L12.3298 8.17775C12.5202 8.06725 12.7602 8.18843 12.7742 8.4081C12.7953 8.74004 12.8048 9.11436 12.8048 9.53637C12.8048 12.5851 11.5853 13.1949 7.60095 13.1949C3.35013 13.1949 2.43905 12.5851 2.43905 9.53637C2.43905 9.11456 2.44809 8.74039 2.46848 8.40857C2.48201 8.18842 2.72242 8.06653 2.91317 8.17725L3.15389 8.31691Z"
+                                                fill="#3B82F6"></path>
+                                        </svg>
+                                        <span class="font-semibold text-xs dark:text-white pe-1 ">شامل 8 دوره</span>
+
+                                    </div>
+                                </div>
+                                <span class="text-2xl font-bold ms-3 dark:text-white ">آموزش React</span>
+
+
+                                <p class="text-[#9EA8B8] text-sm ms-3">
+                                    React محبوب‌ترین فریمورک توسعه رابط کاربری و اپلیکیشن‌های SPA است که توسط شرکت
+                                    فیسبوک ایجاد شده است. React از زبان جاوا...
+                                </p>
+
+                                <div
+                                    class="flex justify-end pe-6 items-center text-center font-bold text-[#4387F6] hover:text-gray-500 py-4 transition">
+                                    <a href="#">مشاهده مسیر یادگیری</a>
+                                    <svg class="mr-1" width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" opacity="0.4"
+                                            d="M16.0371 11.2149L19.7925 10.8828C20.6352 10.8828 21.3185 11.5727 21.3185 12.4237C21.3185 13.2746 20.6352 13.9646 19.7925 13.9646L16.0371 13.6325C15.376 13.6325 14.84 13.0913 14.84 12.4237C14.84 11.755 15.376 11.2149 16.0371 11.2149Z">
+                                        </path>
+                                        <path fill="currentColor"
+                                            d="M3.42647 11.2759C3.48516 11.2166 3.70443 10.9662 3.91042 10.7582C5.11199 9.45544 8.24938 7.3252 9.89061 6.67327C10.1398 6.56928 10.7699 6.34787 11.1077 6.33221C11.43 6.33221 11.7378 6.40714 12.0313 6.55474C12.3979 6.76162 12.6902 7.08814 12.8519 7.47281C12.9549 7.73895 13.1166 8.53849 13.1166 8.55302C13.2772 9.42636 13.3647 10.8465 13.3647 12.4165C13.3647 13.9105 13.2772 15.2725 13.1454 16.1604C13.131 16.176 12.9693 17.1679 12.7932 17.5078C12.4709 18.1296 11.8408 18.5142 11.1664 18.5142H11.1077C10.668 18.4997 9.74443 18.1139 9.74443 18.1005C8.19068 17.4486 5.1275 15.4212 3.89602 14.0737C3.89602 14.0737 3.54829 13.7271 3.39767 13.5113C3.1629 13.2004 3.04551 12.8157 3.04551 12.431C3.04551 12.0016 3.17729 11.6024 3.42647 11.2759Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+
+
+                        </li>
+
+
+
+
+                    </ul>
                 </div>
-
-                
-                <div class="w-[24rem] md:w-5/12 lg:w-3/12  bg-[#F3F4F6] flex flex-col gap-9 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-white transition dark:bg-[#0E2338] mt-10">
-                    <div class="flex h-10 justify-between mx-3 mt-5 ">
-                        <svg class="h-50 text-white bg-green-400 w-12 p-2 shadow-2xl rounded-md " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.68 15.64">
-                            <path d="M13.94,9.2c-.32,1.84-.62,3.58-.86,5.4h-.06c-.2-1.8-.5-3.5-.84-5.3l-1.3-6.68H7.96l-1.4,6.6c-.4,1.92-.78,3.7-1,5.42H5.5C5.28,13,4.98,11.1,4.66,9.26L3.48,2.62H.34L3.72,18H6.84l1.5-6.52c.38-1.62.66-3.16.92-4.9H9.3c.2,1.74.44,3.3.78,4.9L11.4,18h3.14L18.18,2.62H15.2Zm8.98,6.32V11.24h5.02V8.82H22.92V5.1h5.32V2.62H19.96V18h8.6V15.52Zm7.92,2.42a24.183,24.183,0,0,0,3.28.2c2.74,0,4.46-.5,5.5-1.44a4.228,4.228,0,0,0,1.4-3.16,3.793,3.793,0,0,0-3-3.76V9.7a3.517,3.517,0,0,0,2.46-3.32,3.4,3.4,0,0,0-1.5-2.9,7.1,7.1,0,0,0-4.24-.98,21.93,21.93,0,0,0-3.9.32ZM33.78,4.8a6.092,6.092,0,0,1,1.3-.1c1.32,0,2.46.5,2.46,2.02,0,1.26-1,2.16-2.68,2.16H33.78Zm1.1,6.24c1.52,0,3.04.64,3.04,2.42,0,1.74-1.36,2.46-2.96,2.46a6.136,6.136,0,0,1-1.18-.08v-4.8Z" transform="translate(-0.34 -2.5)" fill="currentColor"></path>
-                        </svg>
-
-                        <div
-                            class="flex flex-wrap rounded-md mt-1 h-7 border border-gray-600 dark:border-blue-700 justify-center items-center">
-                            <svg class="ml-2 " width="25" height="26" viewBox="0 0 25 26" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle opacity="0.15" cx="13.0035" cy="14.2262" r="8.07682"
-                                    transform="rotate(-36.651 13.0035 14.2262)" fill="#3B82F6"></circle>
-                                <path
-                                    d="M3.15389 7.70712C7.35899 10.1461 7.88486 10.1461 12.0899 7.70712C16.295 5.26812 16.295 5.26812 12.0899 2.82914C7.88486 0.390149 7.35899 0.390142 3.15389 2.82914C1.05134 4.04863 6.10352e-05 4.65838 6.10352e-05 5.26813V10.7559C6.10352e-05 11.0926 0.273054 11.3656 0.609809 11.3656C0.946563 11.3656 1.21956 11.0926 1.21956 10.7559L1.21956 6.77631C1.21956 6.67967 1.32672 6.62118 1.40856 6.67255C1.87465 6.96515 2.45643 7.30259 3.15389 7.70712Z"
-                                    fill="#3B82F6"></path>
-                                <path
-                                    d="M3.15389 8.31691C7.35899 10.7559 7.88486 10.7559 12.0899 8.31691L12.3298 8.17775C12.5202 8.06725 12.7602 8.18843 12.7742 8.4081C12.7953 8.74004 12.8048 9.11436 12.8048 9.53637C12.8048 12.5851 11.5853 13.1949 7.60095 13.1949C3.35013 13.1949 2.43905 12.5851 2.43905 9.53637C2.43905 9.11456 2.44809 8.74039 2.46848 8.40857C2.48201 8.18842 2.72242 8.06653 2.91317 8.17725L3.15389 8.31691Z"
-                                    fill="#3B82F6"></path>
-                            </svg>
-                            <span class="font-semibold text-xs dark:text-white pe-1 ">شامل 8 دوره</span>
-
-                        </div>
-                    </div>
-                    <span class="text-2xl font-bold ms-3 dark:text-white "> 
-                        طراحی سایت
-                    </span>
-
-
-                    <p class="text-[#9EA8B8] text-sm ms-3">
-                        آموزش طراحی سایت صفر تا صد پروژه محور به صورت کامل را از طریق مدرسین مجرب مجموعه آموزشی راکت یاد بگیرید.
-                        <br><br>
-                    </p>
-
-                    <div
-                        class="flex justify-end pe-6 items-center text-center font-bold text-[#4387F6] hover:text-gray-500 py-4 transition">
-                        <a href="#">مشاهده مسیر یادگیری</a>
-                        <svg class="mr-1" width="25" height="25" viewBox="0 0 25 25" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill="currentColor" opacity="0.4"
-                                d="M16.0371 11.2149L19.7925 10.8828C20.6352 10.8828 21.3185 11.5727 21.3185 12.4237C21.3185 13.2746 20.6352 13.9646 19.7925 13.9646L16.0371 13.6325C15.376 13.6325 14.84 13.0913 14.84 12.4237C14.84 11.755 15.376 11.2149 16.0371 11.2149Z">
-                            </path>
-                            <path fill="currentColor"
-                                d="M3.42647 11.2759C3.48516 11.2166 3.70443 10.9662 3.91042 10.7582C5.11199 9.45544 8.24938 7.3252 9.89061 6.67327C10.1398 6.56928 10.7699 6.34787 11.1077 6.33221C11.43 6.33221 11.7378 6.40714 12.0313 6.55474C12.3979 6.76162 12.6902 7.08814 12.8519 7.47281C12.9549 7.73895 13.1166 8.53849 13.1166 8.55302C13.2772 9.42636 13.3647 10.8465 13.3647 12.4165C13.3647 13.9105 13.2772 15.2725 13.1454 16.1604C13.131 16.176 12.9693 17.1679 12.7932 17.5078C12.4709 18.1296 11.8408 18.5142 11.1664 18.5142H11.1077C10.668 18.4997 9.74443 18.1139 9.74443 18.1005C8.19068 17.4486 5.1275 15.4212 3.89602 14.0737C3.89602 14.0737 3.54829 13.7271 3.39767 13.5113C3.1629 13.2004 3.04551 12.8157 3.04551 12.431C3.04551 12.0016 3.17729 11.6024 3.42647 11.2759Z">
-                            </path>
-                        </svg>
-                    </div>
-                </div>
-
-                
-                <div class="w-[24rem] md:w-5/12 lg:w-3/12 bg-[#F3F4F6] flex flex-col gap-9 border border-gray-300 dark:border-gray-700 rounded-md hover:bg-white transition dark:bg-[#0E2338] mt-10">
-                    <div class="flex h-10 justify-between mx-3 mt-5">
-                        <svg class=" h-50 text-black bg-yellow-300 w-12 p-2 shadow-2xl rounded-md"
-                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.418 30.106">
-                            <g id="javascript-js-seeklogo.com" transform="translate(-67.311 -116.153)">
-                                <path fill="currentColor"
-                                    d="M67.311,141.76l4.924-2.98c.95,1.684,1.814,3.109,3.887,3.109,1.987,0,3.24-.777,3.24-3.8v-20.56H85.41v20.646c0,6.263-3.671,9.114-9.028,9.114a9.385,9.385,0,0,1-9.071-5.529"
-                                    transform="translate(0 -1.03)"></path>
-                                <path fill="currentColor"
-                                    d="M152.381,140.082l4.924-2.851c1.3,2.117,2.981,3.672,5.961,3.672,2.506,0,4.1-1.253,4.1-2.981,0-2.073-1.641-2.808-4.406-4.017l-1.511-.648c-4.363-1.857-7.257-4.19-7.257-9.114,0-4.535,3.456-7.991,8.855-7.991,3.844,0,6.609,1.339,8.6,4.838l-4.708,3.024c-1.037-1.857-2.159-2.591-3.887-2.591a2.631,2.631,0,0,0-2.894,2.591c0,1.814,1.123,2.548,3.715,3.672l1.512.648c5.14,2.2,8.034,4.449,8.034,9.5,0,5.443-4.276,8.423-10.021,8.423-5.615,0-9.243-2.678-11.014-6.177"
-                                    transform="translate(-63.687)"></path>
-                            </g>
-                        </svg>
-
-                        <div
-                            class="flex flex-wrap rounded-md mt-1 h-7 border border-gray-600 dark:border-blue-700 justify-center items-center">
-                            <svg class="ml-2 " width="25" height="26" viewBox="0 0 25 26" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle opacity="0.15" cx="13.0035" cy="14.2262" r="8.07682"
-                                    transform="rotate(-36.651 13.0035 14.2262)" fill="#3B82F6"></circle>
-                                <path
-                                    d="M3.15389 7.70712C7.35899 10.1461 7.88486 10.1461 12.0899 7.70712C16.295 5.26812 16.295 5.26812 12.0899 2.82914C7.88486 0.390149 7.35899 0.390142 3.15389 2.82914C1.05134 4.04863 6.10352e-05 4.65838 6.10352e-05 5.26813V10.7559C6.10352e-05 11.0926 0.273054 11.3656 0.609809 11.3656C0.946563 11.3656 1.21956 11.0926 1.21956 10.7559L1.21956 6.77631C1.21956 6.67967 1.32672 6.62118 1.40856 6.67255C1.87465 6.96515 2.45643 7.30259 3.15389 7.70712Z"
-                                    fill="#3B82F6"></path>
-                                <path
-                                    d="M3.15389 8.31691C7.35899 10.7559 7.88486 10.7559 12.0899 8.31691L12.3298 8.17775C12.5202 8.06725 12.7602 8.18843 12.7742 8.4081C12.7953 8.74004 12.8048 9.11436 12.8048 9.53637C12.8048 12.5851 11.5853 13.1949 7.60095 13.1949C3.35013 13.1949 2.43905 12.5851 2.43905 9.53637C2.43905 9.11456 2.44809 8.74039 2.46848 8.40857C2.48201 8.18842 2.72242 8.06653 2.91317 8.17725L3.15389 8.31691Z"
-                                    fill="#3B82F6"></path>
-                            </svg>
-                            <span class="font-semibold text-xs dark:text-white pe-1 ">شامل 8 دوره</span>
-
-                        </div>
-                    </div>
-                    <span class="text-2xl font-bold ms-3 dark:text-white ">آموزش جاوااسکریپت</span>
-
-
-                    <p class="text-[#9EA8B8] text-sm ms-3">
-                        آموزش جاوااسکریپت از صفر تا صد با بیان مباحث <br>
-                        مقدماتی تا پیشرفته به همراه مدرسین مجرب در مجموعه <br>
-                        آموزشی راکت
-                    </p>
-
-                    <div
-                        class="flex justify-end pe-6 items-center text-center font-bold text-[#4387F6] hover:text-gray-500 py-4 transition">
-                        <a href="#">مشاهده مسیر یادگیری</a>
-                        <svg class="mr-1" width="25" height="25" viewBox="0 0 25 25" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill="currentColor" opacity="0.4"
-                                d="M16.0371 11.2149L19.7925 10.8828C20.6352 10.8828 21.3185 11.5727 21.3185 12.4237C21.3185 13.2746 20.6352 13.9646 19.7925 13.9646L16.0371 13.6325C15.376 13.6325 14.84 13.0913 14.84 12.4237C14.84 11.755 15.376 11.2149 16.0371 11.2149Z">
-                            </path>
-                            <path fill="currentColor"
-                                d="M3.42647 11.2759C3.48516 11.2166 3.70443 10.9662 3.91042 10.7582C5.11199 9.45544 8.24938 7.3252 9.89061 6.67327C10.1398 6.56928 10.7699 6.34787 11.1077 6.33221C11.43 6.33221 11.7378 6.40714 12.0313 6.55474C12.3979 6.76162 12.6902 7.08814 12.8519 7.47281C12.9549 7.73895 13.1166 8.53849 13.1166 8.55302C13.2772 9.42636 13.3647 10.8465 13.3647 12.4165C13.3647 13.9105 13.2772 15.2725 13.1454 16.1604C13.131 16.176 12.9693 17.1679 12.7932 17.5078C12.4709 18.1296 11.8408 18.5142 11.1664 18.5142H11.1077C10.668 18.4997 9.74443 18.1139 9.74443 18.1005C8.19068 17.4486 5.1275 15.4212 3.89602 14.0737C3.89602 14.0737 3.54829 13.7271 3.39767 13.5113C3.1629 13.2004 3.04551 12.8157 3.04551 12.431C3.04551 12.0016 3.17729 11.6024 3.42647 11.2759Z">
-                            </path>
-                        </svg>
-                    </div>
-                </div>
-
             </section>
 
 
         </section>
 
         <!-- darmored roocket -->
-        <section class="flex flex-wrap mt-32">
+        <section class="flex flex-wrap mt-32  ">
             <div class="w-full flex flex-wrap justify-center mx-auto ">
 
                 <!-- about -->
@@ -1372,25 +1544,28 @@
         </section>
 
         <!-- gooshe kenar -->
-        <section class="flex flex-wrap mt-32  ">
+        <section class="flex flex-wrap mt-3 ">
             <!-- desktop mode -->
             <div class="xl:flex flex-wrap relative h-[45rem] items-center hidden">
                 <div class=" w-10/12 mx-auto rounded-md dark:bg-[#0F1E2F]  flex flex-wrap h-96 bg-[#ECEEF0] ">
                     <!-- right -->
                     <div class="w-6/12  flex flex-col  p-10 gap-10 lg:relative justify-center fix">
                         <div class="flex">
-                            <svg class="lg:absolute top-10 -right-7" width="49" height="46" viewBox="0 0 49 46" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg class="lg:absolute top-10 -right-7" width="49" height="46" viewBox="0 0 49 46"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="13.2432" cy="32.1084" r="13.2432" fill="#DC2626"></circle>
-                                <circle cx="39.7298" cy="17.5407" r="9.27027" fill="#DC2626" fill-opacity="0.4"></circle>
+                                <circle cx="39.7298" cy="17.5407" r="9.27027" fill="#DC2626" fill-opacity="0.4">
+                                </circle>
                                 <circle cx="19.865" cy="5.62176" r="5.2973" fill="#DC2626" fill-opacity="0.7"></circle>
                             </svg>
                             <span class="text-3xl font-bold dark:text-white">از گوشه و اطراف دنیای برنامه‌نویسی</span>
-    
+
                         </div>
-                        <p class="dark:text-gray-500 hidden lg:block">نوشتن کار جالبیه که از هزاران سال همراه ما بوده و کمک کرده تا همیشه به
+                        <p class="dark:text-gray-500 hidden lg:block">نوشتن کار جالبیه که از هزاران سال همراه ما بوده و
+                            کمک کرده تا همیشه به
                             روز باشیم، ما در راکت فضای
-                            رو به شکلی آماده کردیم تا شما بتونید ایده‌ها و مطالب جالب حوزه برنامه‌نویسی رو در اختیار هزاران
+                            رو به شکلی آماده کردیم تا شما بتونید ایده‌ها و مطالب جالب حوزه برنامه‌نویسی رو در اختیار
+                            هزاران
                             برنامه‌نویس عضو راکت قرار بدید.
                         </p>
                         <button
@@ -1407,13 +1582,15 @@
                             </svg>
                         </button>
                     </div>
-    
+
                     <!-- left -->
-                    <div class=" lg:w-[38rem] flex-wrap   lg:absolute bottom-0 left-44  h-full flex justify-center xl:left-10 ">
+                    <div
+                        class=" lg:w-[38rem] flex-wrap   lg:absolute bottom-0 left-44  h-full flex justify-center xl:left-10 ">
                         <!-- r-boxes -->
                         <div class="   lg:w-6/12 flex flex-col items-center">
                             <!-- t -->
-                            <div class="w-11/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-0">
+                            <div
+                                class="w-11/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-0">
                                 <a href="#" class="w-11/12 overflow-hidden rounded-md">
                                     <img class="hover:scale-110 transition "
                                         src="https://static.roocket.ir/images/cover/2024/6/10/BjK04GHUquYXC97HCrpAEaYCo62OqjBmpRGoUN0m.jpg"
@@ -1425,10 +1602,12 @@
                                 </a>
                                 <div class="flex justify-between w-11/12 items-center">
                                     <div class="pb-1">
-                                        <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی راکت</a>
+                                        <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی
+                                            راکت</a>
                                     </div>
                                     <div>
-                                        <a href="#" class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
+                                        <a href="#"
+                                            class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
                                             <svg class="ml-1" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -1439,31 +1618,35 @@
                                                 <path
                                                     class="stroke-current transition duration-200 text-blue-700 group-hover:text-white"
                                                     d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518"
-                                                    stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round">
+                                                    stroke-width="0.833333" stroke-linecap="round"
+                                                    stroke-linejoin="round">
                                                 </path>
                                             </svg>
                                             <span class="text-xs text-bold">ماهنامه</span>
                                         </a>
                                     </div>
                                 </div>
-    
+
                                 <div class="flex w-11/12 justify-between pb-3">
                                     <div class="flex gap-2">
                                         <div class="px-1 rounded-md bg-gray-300"><i class="bi bi-command"></i></div>
-                                        <div class="px-1 rounded-md text-red-600 bg-red-300"><i class="bi bi-heart"></i></div>
-                                        <div class="px-1 rounded-md bg-blue-300 text-blue-600"><i class="bi bi-newspaper"></i></div>
+                                        <div class="px-1 rounded-md text-red-600 bg-red-300"><i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="px-1 rounded-md bg-blue-300 text-blue-600"><i
+                                                class="bi bi-newspaper"></i></div>
                                     </div>
-    
+
                                     <div class="flex gap-1 items-center text-gray-500 dark:text-gray-400">
                                         <i class="bi bi-clock"></i>
                                         <span class="text-xs ">زمان مطالعه 45 ثانیه</span>
                                     </div>
-    
+
                                 </div>
                             </div>
                             <!-- b -->
-    
-                            <div class="w-11/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-5">
+
+                            <div
+                                class="w-11/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-5">
                                 <a href="#" class="w-11/12 overflow-hidden rounded-md">
                                     <img class="hover:scale-110 transition "
                                         src="https://static.roocket.ir/images/cover/2024/6/12/GxQ34lkbOhZVtsVEB45RrspSRKM0dvrGtbuOtuS5.png"
@@ -1475,10 +1658,12 @@
                                 </a>
                                 <div class="flex justify-between w-11/12 items-center ">
                                     <div class="pb-1">
-                                        <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی راکت</a>
+                                        <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی
+                                            راکت</a>
                                     </div>
                                     <div>
-                                        <a href="#" class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
+                                        <a href="#"
+                                            class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
                                             <svg class="ml-1" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -1489,52 +1674,58 @@
                                                 <path
                                                     class="stroke-current transition duration-200 text-blue-700 group-hover:text-white"
                                                     d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518"
-                                                    stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round">
+                                                    stroke-width="0.833333" stroke-linecap="round"
+                                                    stroke-linejoin="round">
                                                 </path>
                                             </svg>
                                             <span class="text-xs text-bold">ماهنامه</span>
                                         </a>
                                     </div>
                                 </div>
-    
+
                                 <div class="flex w-11/12 justify-between pb-3">
                                     <div class="flex gap-2">
                                         <div class="px-1 rounded-md bg-gray-300"><i class="bi bi-command"></i></div>
-                                        <div class="px-1 rounded-md text-red-600 bg-red-300"><i class="bi bi-heart"></i></div>
-                                        <div class="px-1 rounded-md bg-blue-300 text-blue-600"><i class="bi bi-newspaper"></i></div>
+                                        <div class="px-1 rounded-md text-red-600 bg-red-300"><i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="px-1 rounded-md bg-blue-300 text-blue-600"><i
+                                                class="bi bi-newspaper"></i></div>
                                     </div>
-    
+
                                     <div class="flex gap-1 items-center text-gray-500 dark:text-gray-400">
                                         <i class="bi bi-clock"></i>
                                         <span class="text-xs ">زمان مطالعه 45 ثانیه</span>
                                     </div>
-    
+
                                 </div>
                             </div>
-    
-    
-    
-    
+
+
+
+
                         </div>
                         <!-- l-boxes -->
                         <div class="  lg:w-6/12 flex flex-col items-center">
                             <!-- t -->
-                            <div class="w-11/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-10">
+                            <div
+                                class="w-11/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-10">
                                 <a href="#" class="w-11/12 overflow-hidden rounded-md">
                                     <img class="hover:scale-110 transition "
                                         src="https://static.roocket.ir/images/cover/2024/6/9/qemrOvJNn3e3Gr4g31pZXIs6vsdYGaePTfRINDEH.jpg"
                                         alt="">
                                 </a>
                                 <a href class="font-bold  w-11/12 text-gray-600 dark:text-gray-200">
-                                   
+
                                     چگونه وبسایت‌مان را<br> مجددا طراحی کنیم؟
                                 </a>
                                 <div class="flex justify-between w-11/12 items-center">
                                     <div class="pb-1">
-                                        <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی راکت</a>
+                                        <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی
+                                            راکت</a>
                                     </div>
                                     <div>
-                                        <a href="#" class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
+                                        <a href="#"
+                                            class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
                                             <svg class="ml-1" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -1545,31 +1736,35 @@
                                                 <path
                                                     class="stroke-current transition duration-200 text-blue-700 group-hover:text-white"
                                                     d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518"
-                                                    stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round">
+                                                    stroke-width="0.833333" stroke-linecap="round"
+                                                    stroke-linejoin="round">
                                                 </path>
                                             </svg>
                                             <span class="text-xs text-bold">ماهنامه</span>
                                         </a>
                                     </div>
                                 </div>
-    
+
                                 <div class="flex w-11/12 justify-between pb-3">
                                     <div class="flex gap-2">
                                         <div class="px-1 rounded-md bg-gray-300"><i class="bi bi-command"></i></div>
-                                        <div class="px-1 rounded-md text-red-600 bg-red-300"><i class="bi bi-heart"></i></div>
-                                        <div class="px-1 rounded-md bg-blue-300 text-blue-600"><i class="bi bi-newspaper"></i></div>
+                                        <div class="px-1 rounded-md text-red-600 bg-red-300"><i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="px-1 rounded-md bg-blue-300 text-blue-600"><i
+                                                class="bi bi-newspaper"></i></div>
                                     </div>
-    
+
                                     <div class="flex gap-1 items-center text-gray-500 dark:text-gray-400">
                                         <i class="bi bi-clock"></i>
                                         <span class="text-xs ">زمان مطالعه 45 ثانیه</span>
                                     </div>
-    
+
                                 </div>
                             </div>
                             <!-- b -->
-    
-                            <div class="w-11/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-5">
+
+                            <div
+                                class="w-11/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-5">
                                 <a href="#" class="w-11/12 overflow-hidden rounded-md">
                                     <img class="hover:scale-110 transition "
                                         src="https://static.roocket.ir/images/cover/2024/6/9/FMIcZztjvvYBmpqDe4wJoN5pEKJDuHBgCg27d7QE.jpg"
@@ -1580,10 +1775,12 @@
                                 </a>
                                 <div class="flex justify-between w-11/12 items-center">
                                     <div class="pb-1">
-                                        <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی راکت</a>
+                                        <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی
+                                            راکت</a>
                                     </div>
                                     <div>
-                                        <a href="#" class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
+                                        <a href="#"
+                                            class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
                                             <svg class="ml-1" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -1594,57 +1791,65 @@
                                                 <path
                                                     class="stroke-current transition duration-200 text-blue-700 group-hover:text-white"
                                                     d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518"
-                                                    stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round">
+                                                    stroke-width="0.833333" stroke-linecap="round"
+                                                    stroke-linejoin="round">
                                                 </path>
                                             </svg>
                                             <span class="text-xs text-bold">ماهنامه</span>
                                         </a>
                                     </div>
                                 </div>
-    
+
                                 <div class="flex w-11/12 justify-between pb-3">
                                     <div class="flex gap-2">
                                         <div class="px-1 rounded-md bg-gray-300"><i class="bi bi-command"></i></div>
-                                        <div class="px-1 rounded-md text-red-600 bg-red-300"><i class="bi bi-heart"></i></div>
-                                        <div class="px-1 rounded-md bg-blue-300 text-blue-600"><i class="bi bi-newspaper"></i></div>
+                                        <div class="px-1 rounded-md text-red-600 bg-red-300"><i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="px-1 rounded-md bg-blue-300 text-blue-600"><i
+                                                class="bi bi-newspaper"></i></div>
                                     </div>
-    
+
                                     <div class="flex gap-1 items-center text-gray-500 dark:text-gray-400">
                                         <i class="bi bi-clock"></i>
                                         <span class="text-xs ">زمان مطالعه 45 ثانیه</span>
                                     </div>
-    
+
                                 </div>
                             </div>
                         </div>
-    
+
                     </div>
                 </div>
             </div>
             <!-- mobile and tablet -->
 
             <div class="flex ">
-                <div class="flex w-full  flex-col items-center gap-5 xl:hidden dark:bg-[#0F1E2F] bg-[#ECEEF0] rounded-md">
-                    <span class="text-3xl font-extrabold text-gray-800 dark:text-white">از گوشه و اطراف دنیای برنامه‌نویسی</span>
-                    <p class="w-11/12 text-sm text-gray-500 dark:text-gray-500 ">نوشتن کار جالبیه که از هزاران سال همراه ما بوده و کمک کرده تا همیشه به روز باشیم، ما در راکت فضای رو به شکلی آماده کردیم تا شما بتونید ایده‌ها و مطالب جالب حوزه برنامه‌نویسی رو در اختیار هزاران برنامه‌نویس عضو راکت قرار</p>
+                <div
+                    class="flex w-full  flex-col items-center gap-5 xl:hidden dark:bg-[#0F1E2F] bg-[#ECEEF0] rounded-md">
+                    <span class="text-3xl font-extrabold text-gray-800 dark:text-white">از گوشه و اطراف دنیای
+                        برنامه‌نویسی</span>
+                    <p class="w-11/12 text-sm text-gray-500 dark:text-gray-500 ">نوشتن کار جالبیه که از هزاران سال همراه
+                        ما بوده و کمک کرده تا همیشه به روز باشیم، ما در راکت فضای رو به شکلی آماده کردیم تا شما بتونید
+                        ایده‌ها و مطالب جالب حوزه برنامه‌نویسی رو در اختیار هزاران برنامه‌نویس عضو راکت قرار</p>
                     <button
-                    class="flex bg-[#3B82F6] w-44 justify-center py-3 items-center font-semibold rounded-md hover:bg-gray-600 transition">
-                    <span class="text-bold text-white text-sm">مشاهده همه مطالب</span>
-                    <svg class="mr-2" width="14" height="10" viewBox="0 0 14 10" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path class="fill-current text-white transition duration-200" opacity="0.4"
-                            d="M9.57831 4.47732L12.273 4.23901C12.8777 4.23901 13.368 4.73409 13.368 5.3447C13.368 5.95532 12.8777 6.4504 12.273 6.4504L9.57831 6.21209C9.10391 6.21209 8.7193 5.82373 8.7193 5.3447C8.7193 4.86488 9.10391 4.47732 9.57831 4.47732">
-                        </path>
-                        <path class="fill-current text-white transition duration-200"
-                            d="M0.529516 4.52111C0.571632 4.47859 0.728973 4.29885 0.876777 4.14961C1.73897 3.21483 3.9902 1.68628 5.16787 1.21848C5.34666 1.14386 5.79882 0.984988 6.04119 0.973755C6.27243 0.973755 6.49334 1.02751 6.70392 1.13343C6.96695 1.28187 7.17674 1.51617 7.29275 1.79219C7.36666 1.98316 7.48267 2.55687 7.48267 2.5673C7.5979 3.19396 7.66068 4.213 7.66068 5.33955C7.66068 6.41154 7.5979 7.38885 7.50334 8.02595C7.493 8.03718 7.37699 8.7489 7.25064 8.99282C7.0194 9.43895 6.56724 9.71497 6.0833 9.71497H6.04119C5.72571 9.70454 5.06298 9.42772 5.06298 9.41809C3.94809 8.9503 1.75009 7.49557 0.866446 6.52869C0.866446 6.52869 0.616927 6.27995 0.508855 6.12509C0.34039 5.90202 0.256158 5.626 0.256158 5.34998C0.256158 5.04186 0.350721 4.75541 0.529516 4.52111">
-                        </path>
-                    </svg>
+                        class="flex bg-[#3B82F6] w-44 justify-center py-3 items-center font-semibold rounded-md hover:bg-gray-600 transition">
+                        <span class="text-bold text-white text-sm">مشاهده همه مطالب</span>
+                        <svg class="mr-2" width="14" height="10" viewBox="0 0 14 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="fill-current text-white transition duration-200" opacity="0.4"
+                                d="M9.57831 4.47732L12.273 4.23901C12.8777 4.23901 13.368 4.73409 13.368 5.3447C13.368 5.95532 12.8777 6.4504 12.273 6.4504L9.57831 6.21209C9.10391 6.21209 8.7193 5.82373 8.7193 5.3447C8.7193 4.86488 9.10391 4.47732 9.57831 4.47732">
+                            </path>
+                            <path class="fill-current text-white transition duration-200"
+                                d="M0.529516 4.52111C0.571632 4.47859 0.728973 4.29885 0.876777 4.14961C1.73897 3.21483 3.9902 1.68628 5.16787 1.21848C5.34666 1.14386 5.79882 0.984988 6.04119 0.973755C6.27243 0.973755 6.49334 1.02751 6.70392 1.13343C6.96695 1.28187 7.17674 1.51617 7.29275 1.79219C7.36666 1.98316 7.48267 2.55687 7.48267 2.5673C7.5979 3.19396 7.66068 4.213 7.66068 5.33955C7.66068 6.41154 7.5979 7.38885 7.50334 8.02595C7.493 8.03718 7.37699 8.7489 7.25064 8.99282C7.0194 9.43895 6.56724 9.71497 6.0833 9.71497H6.04119C5.72571 9.70454 5.06298 9.42772 5.06298 9.41809C3.94809 8.9503 1.75009 7.49557 0.866446 6.52869C0.866446 6.52869 0.616927 6.27995 0.508855 6.12509C0.34039 5.90202 0.256158 5.626 0.256158 5.34998C0.256158 5.04186 0.350721 4.75541 0.529516 4.52111">
+                            </path>
+                        </svg>
                     </button>
                 </div>
 
             </div>
             <div class="flex flex-wrap justify-center xl:hidden">
-                <div class="w-8/12 md:w-6/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-0">
+                <div
+                    class="w-8/12 md:w-6/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-0">
                     <a href="#" class="w-11/12 overflow-hidden rounded-md">
                         <img class="hover:scale-110 transition "
                             src="https://static.roocket.ir/images/cover/2024/6/10/BjK04GHUquYXC97HCrpAEaYCo62OqjBmpRGoUN0m.jpg"
@@ -1659,7 +1864,8 @@
                             <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی راکت</a>
                         </div>
                         <div>
-                            <a href="#" class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
+                            <a href="#"
+                                class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
                                 <svg class="ml-1" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -1693,7 +1899,8 @@
                     </div>
                 </div>
 
-                <div class="w-8/12 md:w-6/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-5">
+                <div
+                    class="w-8/12 md:w-6/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-5">
                     <a href="#" class="w-11/12 overflow-hidden rounded-md">
                         <img class="hover:scale-110 transition "
                             src="https://static.roocket.ir/images/cover/2024/6/12/GxQ34lkbOhZVtsVEB45RrspSRKM0dvrGtbuOtuS5.png"
@@ -1708,7 +1915,8 @@
                             <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی راکت</a>
                         </div>
                         <div>
-                            <a href="#" class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
+                            <a href="#"
+                                class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
                                 <svg class="ml-1" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -1742,7 +1950,8 @@
                     </div>
                 </div>
 
-                <div class="w-8/12 md:w-6/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-5">
+                <div
+                    class="w-8/12 md:w-6/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-5">
                     <a href="#" class="w-11/12 overflow-hidden rounded-md">
                         <img class="hover:scale-110 transition "
                             src="https://static.roocket.ir/images/cover/2024/6/9/FMIcZztjvvYBmpqDe4wJoN5pEKJDuHBgCg27d7QE.jpg"
@@ -1756,7 +1965,8 @@
                             <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی راکت</a>
                         </div>
                         <div>
-                            <a href="#" class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
+                            <a href="#"
+                                class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
                                 <svg class="ml-1" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -1790,14 +2000,15 @@
                     </div>
                 </div>
 
-                <div class="w-8/12 md:w-6/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-10">
+                <div
+                    class="w-8/12 md:w-6/12  flex flex-col bg-white items-center pt-3 gap-2 rounded-lg dark:bg-[#1B344D] mt-5 lg:mt-10">
                     <a href="#" class="w-11/12 overflow-hidden rounded-md">
                         <img class="hover:scale-110 transition "
                             src="https://static.roocket.ir/images/cover/2024/6/9/qemrOvJNn3e3Gr4g31pZXIs6vsdYGaePTfRINDEH.jpg"
                             alt="">
                     </a>
                     <a href class="font-bold  w-11/12 text-gray-600 dark:text-gray-200">
-                       
+
                         چگونه وبسایت‌مان را<br> مجددا طراحی کنیم؟
                     </a>
                     <div class="flex justify-between w-11/12 items-center">
@@ -1805,7 +2016,8 @@
                             <a href="#" class="text-xs text-gray-600 font-bold dark:text-gray-300">پشتیبانی راکت</a>
                         </div>
                         <div>
-                            <a href="#" class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
+                            <a href="#"
+                                class="flex items-center text-blue-600 bg-[#F5F9FF] p-1 rounded-md font-bold dark:bg-[#31485F]">
                                 <svg class="ml-1" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -1846,21 +2058,29 @@
 
         </section>
         <!-- ad instagram -->
-        <section class="flex flex-wrap mt-32 justify-center ">
-            
+        <section class="flex flex-wrap mt-32 justify-center  ">
 
-            <div class="w-full pb-3 flex gap-3 lg:gap-0 flex-col lg:flex-row items-center  bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 rounded-3xl">
+
+            <div
+                class="w-full pb-3 flex gap-3 lg:gap-0 flex-col lg:flex-row items-center  bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 rounded-3xl">
                 <img class=" w-6/12 sm:w-5/12 lg:w-2/12  lg:-mt-10 " src="../pic/index_instagram_phone.png" alt="">
-                <span class=" mx-auto flex items-center font-bold text-white ">ما هر روز کلی مطالب آموزشی جالب در اینستاگراممون منتشر می‌کنیم!</span>
-                <a href="#" class=" flex items-center justify-center h-10 gap-2 mx-auto bg-white text-purple-600 p-2 font-bold rounded-md hover:bg-violet-500 transition duration-400 hover:text-white ">
+                <span class=" mx-auto flex items-center font-bold text-white ">ما هر روز کلی مطالب آموزشی جالب در
+                    اینستاگراممون منتشر می‌کنیم!</span>
+                <a href="#"
+                    class=" flex items-center justify-center h-10 gap-2 mx-auto bg-white text-purple-600 p-2 font-bold rounded-md hover:bg-violet-500 transition duration-400 hover:text-white ">
                     <span class="text-sm">مشاهده ی پست های اینستاگرام</span>
-                    <svg width="16" height="11" viewBox="0 0 16 11" fill="none" class="mr-2" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="currentColor" opacity="0.4" d="M10.8229 4.15815L13.8465 3.89075C14.525 3.89075 15.0752 4.44626 15.0752 5.13142C15.0752 5.81658 14.525 6.37209 13.8465 6.37209L10.8229 6.10469C10.2905 6.10469 9.85898 5.66892 9.85898 5.13142C9.85898 4.59301 10.2905 4.15815 10.8229 4.15815"></path>
-                        <path fill="currentColor" d="M0.66943 4.20734C0.716688 4.15962 0.893236 3.95795 1.05908 3.79048C2.02653 2.74158 4.55259 1.02643 5.87402 0.501533C6.07464 0.417801 6.58199 0.239533 6.85395 0.226929C7.11342 0.226929 7.3613 0.287252 7.59759 0.406097C7.89273 0.57266 8.12812 0.83556 8.25831 1.14528C8.34123 1.35956 8.47141 2.0033 8.47141 2.01501C8.6007 2.71817 8.67114 3.86161 8.67114 5.12569C8.67114 6.32855 8.6007 7.42516 8.49459 8.14003C8.483 8.15264 8.35282 8.95124 8.21105 9.22495C7.95158 9.72554 7.44423 10.0353 6.90121 10.0353H6.85395C6.49996 10.0235 5.75632 9.71293 5.75632 9.70213C4.50533 9.17723 2.03901 7.54491 1.04749 6.46C1.04749 6.46 0.767513 6.18089 0.646247 6.00712C0.457217 5.75683 0.362701 5.44711 0.362701 5.13739C0.362701 4.79166 0.468808 4.47024 0.66943 4.20734"></path>
+                    <svg width="16" height="11" viewBox="0 0 16 11" fill="none" class="mr-2"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" opacity="0.4"
+                            d="M10.8229 4.15815L13.8465 3.89075C14.525 3.89075 15.0752 4.44626 15.0752 5.13142C15.0752 5.81658 14.525 6.37209 13.8465 6.37209L10.8229 6.10469C10.2905 6.10469 9.85898 5.66892 9.85898 5.13142C9.85898 4.59301 10.2905 4.15815 10.8229 4.15815">
+                        </path>
+                        <path fill="currentColor"
+                            d="M0.66943 4.20734C0.716688 4.15962 0.893236 3.95795 1.05908 3.79048C2.02653 2.74158 4.55259 1.02643 5.87402 0.501533C6.07464 0.417801 6.58199 0.239533 6.85395 0.226929C7.11342 0.226929 7.3613 0.287252 7.59759 0.406097C7.89273 0.57266 8.12812 0.83556 8.25831 1.14528C8.34123 1.35956 8.47141 2.0033 8.47141 2.01501C8.6007 2.71817 8.67114 3.86161 8.67114 5.12569C8.67114 6.32855 8.6007 7.42516 8.49459 8.14003C8.483 8.15264 8.35282 8.95124 8.21105 9.22495C7.95158 9.72554 7.44423 10.0353 6.90121 10.0353H6.85395C6.49996 10.0235 5.75632 9.71293 5.75632 9.70213C4.50533 9.17723 2.03901 7.54491 1.04749 6.46C1.04749 6.46 0.767513 6.18089 0.646247 6.00712C0.457217 5.75683 0.362701 5.44711 0.362701 5.13739C0.362701 4.79166 0.468808 4.47024 0.66943 4.20734">
+                        </path>
                     </svg>
                 </a>
 
-                
+
 
             </div>
 
@@ -1870,19 +2090,20 @@
 
         <!-- Roocket Cast -->
 
-        <section class="flex flex-wrap mx-auto  mt-32">
-            
+        <section class="flex flex-wrap mx-auto  mt-32  ">
+
             <!-- titile -->
 
             <div class="flex flex-wrap w-full mx-10 justify-center ">
                 <div class="sm:w-6/12 flex flex-col justify-center md:justify-start gap-2">
                     <div class="flex gap-3 justify-center lg:justify-start ">
-                    <svg class="text-dark-550 hidden md:block dark:text-white md:relative absolute" width="37" height="34" viewBox="0 0 37 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="10" cy="24" r="10" fill="currentColor"></circle>
-                        <circle cx="30" cy="13" r="7" fill="currentColor" fill-opacity="0.4"></circle>
-                        <circle cx="15" cy="4" r="4" fill="currentColor" fill-opacity="0.7"></circle>
-                    </svg>
-                    <span class="text-4xl font-extrabold mt-5 dark:text-white ">راکت کست</span>
+                        <svg class="text-dark-550 hidden md:block dark:text-white md:relative absolute" width="37"
+                            height="34" viewBox="0 0 37 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="24" r="10" fill="currentColor"></circle>
+                            <circle cx="30" cy="13" r="7" fill="currentColor" fill-opacity="0.4"></circle>
+                            <circle cx="15" cy="4" r="4" fill="currentColor" fill-opacity="0.7"></circle>
+                        </svg>
+                        <span class="text-4xl font-extrabold mt-5 dark:text-white ">راکت کست</span>
                     </div>
                     <span class="lg:ms-12  font-semibold text-gray-600 dark:text-white">
                         پادکست‌های اختصاصی طراحی و برنامه‌نویسی
@@ -1890,11 +2111,17 @@
                 </div>
 
                 <div class="sm:w-6/12 flex justify-end items-end mt-5 lg:mt-0">
-                    <div class="flex gap-2 justify-center items-center text-gray-600 dark:text-white hover:text-black transition">
+                    <div
+                        class="flex gap-2 justify-center items-center text-gray-600 dark:text-white hover:text-black transition">
                         <a href="#" class=" font-semibold mb-1 ">مشاهده همه پادکست های صوتی</a>
-                        <svg width="23" height="15" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-3">
-                            <path fill="currentColor" opacity="0.4" d="M16.5073 5.95326L21.0753 5.54929C22.1004 5.54929 22.9315 6.38853 22.9315 7.42364C22.9315 8.45875 22.1004 9.29799 21.0753 9.29799L16.5073 8.89401C15.7031 8.89401 15.0511 8.23568 15.0511 7.42364C15.0511 6.61024 15.7031 5.95326 16.5073 5.95326"></path>
-                            <path fill="currentColor" d="M1.16789 6.02753C1.23929 5.95544 1.50601 5.65076 1.75657 5.39776C3.21814 3.81313 7.0344 1.22195 9.03076 0.428959C9.33385 0.302461 10.1003 0.0331419 10.5112 0.0140991C10.9032 0.0140991 11.2777 0.105232 11.6347 0.284778C12.0805 0.536415 12.4362 0.933592 12.6328 1.4015C12.7581 1.72523 12.9548 2.69777 12.9548 2.71545C13.1501 3.77776 13.2565 5.50521 13.2565 7.41493C13.2565 9.23215 13.1501 10.8889 12.9898 11.9689C12.9723 11.9879 12.7756 13.1944 12.5614 13.6079C12.1694 14.3642 11.403 14.8321 10.5826 14.8321H10.5112C9.97641 14.8144 8.85295 14.3451 8.85295 14.3288C6.963 13.5358 3.237 11.0698 1.73905 9.43074C1.73905 9.43074 1.31607 9.00908 1.13287 8.74656C0.84729 8.36843 0.704501 7.90052 0.704501 7.43261C0.704501 6.9103 0.864802 6.42471 1.16789 6.02753"></path>
+                        <svg width="23" height="15" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="mr-3">
+                            <path fill="currentColor" opacity="0.4"
+                                d="M16.5073 5.95326L21.0753 5.54929C22.1004 5.54929 22.9315 6.38853 22.9315 7.42364C22.9315 8.45875 22.1004 9.29799 21.0753 9.29799L16.5073 8.89401C15.7031 8.89401 15.0511 8.23568 15.0511 7.42364C15.0511 6.61024 15.7031 5.95326 16.5073 5.95326">
+                            </path>
+                            <path fill="currentColor"
+                                d="M1.16789 6.02753C1.23929 5.95544 1.50601 5.65076 1.75657 5.39776C3.21814 3.81313 7.0344 1.22195 9.03076 0.428959C9.33385 0.302461 10.1003 0.0331419 10.5112 0.0140991C10.9032 0.0140991 11.2777 0.105232 11.6347 0.284778C12.0805 0.536415 12.4362 0.933592 12.6328 1.4015C12.7581 1.72523 12.9548 2.69777 12.9548 2.71545C13.1501 3.77776 13.2565 5.50521 13.2565 7.41493C13.2565 9.23215 13.1501 10.8889 12.9898 11.9689C12.9723 11.9879 12.7756 13.1944 12.5614 13.6079C12.1694 14.3642 11.403 14.8321 10.5826 14.8321H10.5112C9.97641 14.8144 8.85295 14.3451 8.85295 14.3288C6.963 13.5358 3.237 11.0698 1.73905 9.43074C1.73905 9.43074 1.31607 9.00908 1.13287 8.74656C0.84729 8.36843 0.704501 7.90052 0.704501 7.43261C0.704501 6.9103 0.864802 6.42471 1.16789 6.02753">
+                            </path>
                         </svg>
                     </div>
                 </div>
@@ -1903,23 +2130,41 @@
             <!-- items -->
 
             <div class="flex flex-wrap  mx-auto mt-12 gap-5 justify-center  ">
-                <div class="w-[28rem] xl:w-[25rem] flex bg-white flex-col items-center gap-8 rounded-md dark:bg-[#1B344D]">
+                <div data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000"
+                    class="w-[28rem] xl:w-[25rem] flex bg-white flex-col items-center gap-8 rounded-md dark:bg-[#1B344D]">
                     <div class=" w-11/12 mt-4 flex">
                         <div class="w-6/12 ">
-                            <div class="w-6/12 py-1 flex bg-white border dark:border-black rounded-md dark:bg-[#1B344D] items-center justify-center">
-                                <svg class="mr-1 ml-2" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <ellipse opacity="0.15" rx="9.35499" ry="8.68976" transform="matrix(0.999965 -0.00839685 0.00973181 0.999953 10.5608 12.9399)" fill="#3B82F6"></ellipse>
-                                    <path d="M2.20588 5.48534C2.20588 3.13448 2.57353 0 5.88234 0C9.19116 0 9.55881 3.13448 9.55881 5.48534C9.55881 7.8362 9.19116 10.9707 5.88234 10.9707C2.57352 10.9707 2.20588 7.8362 2.20588 5.48534Z" fill="#3B82F6"></path>
-                                    <path d="M0.735293 6.85668C0.329202 6.85668 0 7.16366 0 7.54235C0 9.71338 1.60766 12.6347 5.14806 12.9915C5.14739 13.0035 5.14705 13.0155 5.14705 13.0277V13.7134H3.67646C3.27037 13.7134 2.94117 14.0203 2.94117 14.399C2.94117 14.7777 3.27037 15.0847 3.67646 15.0847H8.08822C8.49431 15.0847 8.82351 14.7777 8.82351 14.399C8.82351 14.0203 8.49431 13.7134 8.08822 13.7134H6.61764V13.0277C6.61764 13.0155 6.61729 13.0035 6.61663 12.9915C10.157 12.6347 11.7647 9.71337 11.7647 7.54235C11.7647 7.16366 11.4355 6.85668 11.0294 6.85668C10.6233 6.85668 10.2941 7.16366 10.2941 7.54235C10.2941 9.34052 8.88807 11.6564 5.88234 11.6564C2.87662 11.6564 1.47059 9.34052 1.47059 7.54235C1.47059 7.16366 1.14138 6.85668 0.735293 6.85668Z" fill="#3B82F6"></path>
+                            <div
+                                class="w-6/12 py-1 flex bg-white border dark:border-black rounded-md dark:bg-[#1B344D] items-center justify-center">
+                                <svg class="mr-1 ml-2" width="20" height="22" viewBox="0 0 20 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse opacity="0.15" rx="9.35499" ry="8.68976"
+                                        transform="matrix(0.999965 -0.00839685 0.00973181 0.999953 10.5608 12.9399)"
+                                        fill="#3B82F6"></ellipse>
+                                    <path
+                                        d="M2.20588 5.48534C2.20588 3.13448 2.57353 0 5.88234 0C9.19116 0 9.55881 3.13448 9.55881 5.48534C9.55881 7.8362 9.19116 10.9707 5.88234 10.9707C2.57352 10.9707 2.20588 7.8362 2.20588 5.48534Z"
+                                        fill="#3B82F6"></path>
+                                    <path
+                                        d="M0.735293 6.85668C0.329202 6.85668 0 7.16366 0 7.54235C0 9.71338 1.60766 12.6347 5.14806 12.9915C5.14739 13.0035 5.14705 13.0155 5.14705 13.0277V13.7134H3.67646C3.27037 13.7134 2.94117 14.0203 2.94117 14.399C2.94117 14.7777 3.27037 15.0847 3.67646 15.0847H8.08822C8.49431 15.0847 8.82351 14.7777 8.82351 14.399C8.82351 14.0203 8.49431 13.7134 8.08822 13.7134H6.61764V13.0277C6.61764 13.0155 6.61729 13.0035 6.61663 12.9915C10.157 12.6347 11.7647 9.71337 11.7647 7.54235C11.7647 7.16366 11.4355 6.85668 11.0294 6.85668C10.6233 6.85668 10.2941 7.16366 10.2941 7.54235C10.2941 9.34052 8.88807 11.6564 5.88234 11.6564C2.87662 11.6564 1.47059 9.34052 1.47059 7.54235C1.47059 7.16366 1.14138 6.85668 0.735293 6.85668Z"
+                                        fill="#3B82F6"></path>
                                 </svg>
                                 <span class="text-xs font-bold text-[#4E5968] dark:text-gray-300 ">شماره1066</span>
                             </div>
                         </div>
 
                         <div class="w-6/12 flex gap-4">
-                            <div class=" px-1 flex items-center justify-center  rounded-md hover:bg-blue-600 hover:text-white text-blue-600 "><i class="bi bi-newspaper"></i></div>
-                            <div class="px-3  rounded-md flex gap-1 items-center bg-[#EFF1F4] text-gray-600 dark:bg-[#223B54] dark:text-gray-300"> <i class="bi bi-clock "></i> <span>55:38</span> </div>
-                            <div class=" px-2 flex justify-center items-center gap-1 rounded-md  bg-[#FAE8E8] dark:bg-[#2E3349] text-red-600"><i class="bi bi-heart"></i><span class="mb-1">1</span></div>
+                            <div
+                                class=" px-1 flex items-center justify-center  rounded-md hover:bg-blue-600 hover:text-white text-blue-600 ">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
+                            <div
+                                class="px-3  rounded-md flex gap-1 items-center bg-[#EFF1F4] text-gray-600 dark:bg-[#223B54] dark:text-gray-300">
+                                <i class="bi bi-clock "></i> <span>55:38</span>
+                            </div>
+                            <div
+                                class=" px-2 flex justify-center items-center gap-1 rounded-md  bg-[#FAE8E8] dark:bg-[#2E3349] text-red-600">
+                                <i class="bi bi-heart"></i><span class="mb-1">1</span>
+                            </div>
                         </div>
                     </div>
 
@@ -1929,84 +2174,136 @@
 
 
                     <div class=" w-11/12 flex fix pb-2">
-                        <div class=" w-6/12  flex justify-center items-center gap-1 text-blue-500 font-bold hover:text-gray-600 transition duration-400">
+                        <div
+                            class=" w-6/12  flex justify-center items-center gap-1 text-blue-500 font-bold hover:text-gray-600 transition duration-400">
                             <a href="#" class=" "> برای گوش کردن کلیک کنید</a>
-                            <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
-                                <path fill="currentColor" opacity="0.4" d="M11.1898 4.38459L14.3778 4.10265C15.0932 4.10265 15.6733 4.68836 15.6733 5.41077C15.6733 6.13318 15.0932 6.71889 14.3778 6.71889L11.1898 6.43695C10.6285 6.43695 10.1735 5.97749 10.1735 5.41077C10.1735 4.84309 10.6285 4.38459 11.1898 4.38459"></path>
-                                <path fill="currentColor" d="M0.484342 4.43642C0.534169 4.38611 0.720315 4.17347 0.895179 3.9969C1.91522 2.89098 4.57861 1.08258 5.97189 0.529142C6.18342 0.440858 6.71835 0.252899 7.00509 0.239609C7.27867 0.239609 7.54003 0.303211 7.78916 0.428517C8.10034 0.604136 8.34854 0.881329 8.4858 1.20788C8.57323 1.43382 8.71049 2.11256 8.71049 2.1249C8.84681 2.86629 8.92108 4.07189 8.92108 5.4047C8.92108 6.67295 8.84681 7.82918 8.73493 8.58292C8.72271 8.59621 8.58545 9.43823 8.43597 9.72681C8.16239 10.2546 7.62746 10.5812 7.05492 10.5812H7.00509C6.63186 10.5688 5.84779 10.2413 5.84779 10.2299C4.52879 9.6765 1.92838 7.95544 0.882957 6.81154C0.882957 6.81154 0.587756 6.51726 0.459899 6.33405C0.260591 6.07015 0.160937 5.74359 0.160937 5.41704C0.160937 5.05251 0.272812 4.71361 0.484342 4.43642"></path>
+                            <svg width="16" height="11" viewBox="0 0 16 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                                <path fill="currentColor" opacity="0.4"
+                                    d="M11.1898 4.38459L14.3778 4.10265C15.0932 4.10265 15.6733 4.68836 15.6733 5.41077C15.6733 6.13318 15.0932 6.71889 14.3778 6.71889L11.1898 6.43695C10.6285 6.43695 10.1735 5.97749 10.1735 5.41077C10.1735 4.84309 10.6285 4.38459 11.1898 4.38459">
+                                </path>
+                                <path fill="currentColor"
+                                    d="M0.484342 4.43642C0.534169 4.38611 0.720315 4.17347 0.895179 3.9969C1.91522 2.89098 4.57861 1.08258 5.97189 0.529142C6.18342 0.440858 6.71835 0.252899 7.00509 0.239609C7.27867 0.239609 7.54003 0.303211 7.78916 0.428517C8.10034 0.604136 8.34854 0.881329 8.4858 1.20788C8.57323 1.43382 8.71049 2.11256 8.71049 2.1249C8.84681 2.86629 8.92108 4.07189 8.92108 5.4047C8.92108 6.67295 8.84681 7.82918 8.73493 8.58292C8.72271 8.59621 8.58545 9.43823 8.43597 9.72681C8.16239 10.2546 7.62746 10.5812 7.05492 10.5812H7.00509C6.63186 10.5688 5.84779 10.2413 5.84779 10.2299C4.52879 9.6765 1.92838 7.95544 0.882957 6.81154C0.882957 6.81154 0.587756 6.51726 0.459899 6.33405C0.260591 6.07015 0.160937 5.74359 0.160937 5.41704C0.160937 5.05251 0.272812 4.71361 0.484342 4.43642">
+                                </path>
                             </svg>
                         </div>
 
                         <div class="w-6/12 relative">
                             <a class="overflow-hidden w-11/12 transition" href="#">
-                                <img class="w-4/12 absolute left-0 -bottom-5 " src="https://static.roocket.ir/images/cover/2024/6/4/o1jB0qMf8QbDmeJU0vlsMvpG0kUw6WgxTZ4JrSMq.jpg" alt="">
+                                <img class="w-4/12 absolute left-0 -bottom-5 "
+                                    src="https://static.roocket.ir/images/cover/2024/6/4/o1jB0qMf8QbDmeJU0vlsMvpG0kUw6WgxTZ4JrSMq.jpg"
+                                    alt="">
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="w-[28rem] xl:w-[25rem] flex bg-white flex-col items-center gap-8 rounded-md dark:bg-[#1B344D]">
+                <div data-aos="fade-up" data-aos-delay="9000" data-aos-duration="1000"
+                    class="w-[28rem] xl:w-[25rem] flex bg-white flex-col items-center gap-8 rounded-md dark:bg-[#1B344D]">
                     <div class=" w-11/12 mt-4 flex">
                         <div class="w-6/12 ">
-                            <div class="w-6/12 py-1 flex bg-white border dark:border-black rounded-md dark:bg-[#1B344D] items-center justify-center">
-                                <svg class="mr-1 ml-2" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <ellipse opacity="0.15" rx="9.35499" ry="8.68976" transform="matrix(0.999965 -0.00839685 0.00973181 0.999953 10.5608 12.9399)" fill="#3B82F6"></ellipse>
-                                    <path d="M2.20588 5.48534C2.20588 3.13448 2.57353 0 5.88234 0C9.19116 0 9.55881 3.13448 9.55881 5.48534C9.55881 7.8362 9.19116 10.9707 5.88234 10.9707C2.57352 10.9707 2.20588 7.8362 2.20588 5.48534Z" fill="#3B82F6"></path>
-                                    <path d="M0.735293 6.85668C0.329202 6.85668 0 7.16366 0 7.54235C0 9.71338 1.60766 12.6347 5.14806 12.9915C5.14739 13.0035 5.14705 13.0155 5.14705 13.0277V13.7134H3.67646C3.27037 13.7134 2.94117 14.0203 2.94117 14.399C2.94117 14.7777 3.27037 15.0847 3.67646 15.0847H8.08822C8.49431 15.0847 8.82351 14.7777 8.82351 14.399C8.82351 14.0203 8.49431 13.7134 8.08822 13.7134H6.61764V13.0277C6.61764 13.0155 6.61729 13.0035 6.61663 12.9915C10.157 12.6347 11.7647 9.71337 11.7647 7.54235C11.7647 7.16366 11.4355 6.85668 11.0294 6.85668C10.6233 6.85668 10.2941 7.16366 10.2941 7.54235C10.2941 9.34052 8.88807 11.6564 5.88234 11.6564C2.87662 11.6564 1.47059 9.34052 1.47059 7.54235C1.47059 7.16366 1.14138 6.85668 0.735293 6.85668Z" fill="#3B82F6"></path>
+                            <div
+                                class="w-6/12 py-1 flex bg-white border dark:border-black rounded-md dark:bg-[#1B344D] items-center justify-center">
+                                <svg class="mr-1 ml-2" width="20" height="22" viewBox="0 0 20 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse opacity="0.15" rx="9.35499" ry="8.68976"
+                                        transform="matrix(0.999965 -0.00839685 0.00973181 0.999953 10.5608 12.9399)"
+                                        fill="#3B82F6"></ellipse>
+                                    <path
+                                        d="M2.20588 5.48534C2.20588 3.13448 2.57353 0 5.88234 0C9.19116 0 9.55881 3.13448 9.55881 5.48534C9.55881 7.8362 9.19116 10.9707 5.88234 10.9707C2.57352 10.9707 2.20588 7.8362 2.20588 5.48534Z"
+                                        fill="#3B82F6"></path>
+                                    <path
+                                        d="M0.735293 6.85668C0.329202 6.85668 0 7.16366 0 7.54235C0 9.71338 1.60766 12.6347 5.14806 12.9915C5.14739 13.0035 5.14705 13.0155 5.14705 13.0277V13.7134H3.67646C3.27037 13.7134 2.94117 14.0203 2.94117 14.399C2.94117 14.7777 3.27037 15.0847 3.67646 15.0847H8.08822C8.49431 15.0847 8.82351 14.7777 8.82351 14.399C8.82351 14.0203 8.49431 13.7134 8.08822 13.7134H6.61764V13.0277C6.61764 13.0155 6.61729 13.0035 6.61663 12.9915C10.157 12.6347 11.7647 9.71337 11.7647 7.54235C11.7647 7.16366 11.4355 6.85668 11.0294 6.85668C10.6233 6.85668 10.2941 7.16366 10.2941 7.54235C10.2941 9.34052 8.88807 11.6564 5.88234 11.6564C2.87662 11.6564 1.47059 9.34052 1.47059 7.54235C1.47059 7.16366 1.14138 6.85668 0.735293 6.85668Z"
+                                        fill="#3B82F6"></path>
                                 </svg>
                                 <span class="text-xs font-bold text-[#4E5968] dark:text-gray-300 ">شماره1066</span>
                             </div>
                         </div>
 
                         <div class="w-6/12 flex gap-4">
-                            <div class=" px-1 flex items-center justify-center  rounded-md hover:bg-blue-600 hover:text-white text-blue-600 "><i class="bi bi-newspaper"></i></div>
-                            <div class="px-3  rounded-md flex gap-1 items-center bg-[#EFF1F4] text-gray-600 dark:bg-[#223B54] dark:text-gray-300"> <i class="bi bi-clock "></i> <span>55:38</span> </div>
-                            <div class=" px-2 flex justify-center items-center gap-1 rounded-md  bg-[#FAE8E8] dark:bg-[#2E3349] text-red-600"><i class="bi bi-heart"></i><span class="mb-1">1</span></div>
+                            <div
+                                class=" px-1 flex items-center justify-center  rounded-md hover:bg-blue-600 hover:text-white text-blue-600 ">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
+                            <div
+                                class="px-3  rounded-md flex gap-1 items-center bg-[#EFF1F4] text-gray-600 dark:bg-[#223B54] dark:text-gray-300">
+                                <i class="bi bi-clock "></i> <span>55:38</span>
+                            </div>
+                            <div
+                                class=" px-2 flex justify-center items-center gap-1 rounded-md  bg-[#FAE8E8] dark:bg-[#2E3349] text-red-600">
+                                <i class="bi bi-heart"></i><span class="mb-1">1</span>
+                            </div>
                         </div>
                     </div>
 
                     <span class=" w-11/12 text-xl font-bold dark:text-white ">
                         مهاجرت به هلند با بابی
-                        
+
                     </span>
-                    
+
 
 
                     <div class=" w-11/12 flex fix pb-2 pt-8">
-                        <a href="#" class=" w-6/12 flex justify-center items-center gap-1 text-blue-500 font-bold hover:text-gray-600 transition duration-400">
+                        <a href="#"
+                            class=" w-6/12 flex justify-center items-center gap-1 text-blue-500 font-bold hover:text-gray-600 transition duration-400">
                             <span class=""> برای گوش کردن کلیک کنید</span>
-                            <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
-                                <path fill="currentColor" opacity="0.4" d="M11.1898 4.38459L14.3778 4.10265C15.0932 4.10265 15.6733 4.68836 15.6733 5.41077C15.6733 6.13318 15.0932 6.71889 14.3778 6.71889L11.1898 6.43695C10.6285 6.43695 10.1735 5.97749 10.1735 5.41077C10.1735 4.84309 10.6285 4.38459 11.1898 4.38459"></path>
-                                <path fill="currentColor" d="M0.484342 4.43642C0.534169 4.38611 0.720315 4.17347 0.895179 3.9969C1.91522 2.89098 4.57861 1.08258 5.97189 0.529142C6.18342 0.440858 6.71835 0.252899 7.00509 0.239609C7.27867 0.239609 7.54003 0.303211 7.78916 0.428517C8.10034 0.604136 8.34854 0.881329 8.4858 1.20788C8.57323 1.43382 8.71049 2.11256 8.71049 2.1249C8.84681 2.86629 8.92108 4.07189 8.92108 5.4047C8.92108 6.67295 8.84681 7.82918 8.73493 8.58292C8.72271 8.59621 8.58545 9.43823 8.43597 9.72681C8.16239 10.2546 7.62746 10.5812 7.05492 10.5812H7.00509C6.63186 10.5688 5.84779 10.2413 5.84779 10.2299C4.52879 9.6765 1.92838 7.95544 0.882957 6.81154C0.882957 6.81154 0.587756 6.51726 0.459899 6.33405C0.260591 6.07015 0.160937 5.74359 0.160937 5.41704C0.160937 5.05251 0.272812 4.71361 0.484342 4.43642"></path>
+                            <svg width="16" height="11" viewBox="0 0 16 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                                <path fill="currentColor" opacity="0.4"
+                                    d="M11.1898 4.38459L14.3778 4.10265C15.0932 4.10265 15.6733 4.68836 15.6733 5.41077C15.6733 6.13318 15.0932 6.71889 14.3778 6.71889L11.1898 6.43695C10.6285 6.43695 10.1735 5.97749 10.1735 5.41077C10.1735 4.84309 10.6285 4.38459 11.1898 4.38459">
+                                </path>
+                                <path fill="currentColor"
+                                    d="M0.484342 4.43642C0.534169 4.38611 0.720315 4.17347 0.895179 3.9969C1.91522 2.89098 4.57861 1.08258 5.97189 0.529142C6.18342 0.440858 6.71835 0.252899 7.00509 0.239609C7.27867 0.239609 7.54003 0.303211 7.78916 0.428517C8.10034 0.604136 8.34854 0.881329 8.4858 1.20788C8.57323 1.43382 8.71049 2.11256 8.71049 2.1249C8.84681 2.86629 8.92108 4.07189 8.92108 5.4047C8.92108 6.67295 8.84681 7.82918 8.73493 8.58292C8.72271 8.59621 8.58545 9.43823 8.43597 9.72681C8.16239 10.2546 7.62746 10.5812 7.05492 10.5812H7.00509C6.63186 10.5688 5.84779 10.2413 5.84779 10.2299C4.52879 9.6765 1.92838 7.95544 0.882957 6.81154C0.882957 6.81154 0.587756 6.51726 0.459899 6.33405C0.260591 6.07015 0.160937 5.74359 0.160937 5.41704C0.160937 5.05251 0.272812 4.71361 0.484342 4.43642">
+                                </path>
                             </svg>
                         </a>
 
                         <div class="w-6/12 relative">
                             <a class="overflow-hidden w-11/12 transition" href="#">
-                                <img class="w-4/12 absolute left-0 -bottom-5 " src="https://static.roocket.ir/images/cover/2024/5/12/EsDupavrDepJ3VEKQsDVMbZpkUyOJ7rkWOjtC9zQ.jpg" alt="">
+                                <img class="w-4/12 absolute left-0 -bottom-5 "
+                                    src="https://static.roocket.ir/images/cover/2024/5/12/EsDupavrDepJ3VEKQsDVMbZpkUyOJ7rkWOjtC9zQ.jpg"
+                                    alt="">
                             </a>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="w-[28rem] xl:w-[25rem] flex bg-white flex-col items-center gap-8 rounded-md dark:bg-[#1B344D]">
+                <div data-aos="fade-down" data-aos-delay="1100" data-aos-duration="1000"
+                    class="w-[28rem] xl:w-[25rem] flex bg-white flex-col items-center gap-8 rounded-md dark:bg-[#1B344D]">
                     <div class=" w-11/12 mt-4 flex">
                         <div class="w-6/12 ">
-                            <div class="w-6/12 py-1 flex bg-white border dark:border-black rounded-md dark:bg-[#1B344D] items-center justify-center">
-                                <svg class="mr-1 ml-2" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <ellipse opacity="0.15" rx="9.35499" ry="8.68976" transform="matrix(0.999965 -0.00839685 0.00973181 0.999953 10.5608 12.9399)" fill="#3B82F6"></ellipse>
-                                    <path d="M2.20588 5.48534C2.20588 3.13448 2.57353 0 5.88234 0C9.19116 0 9.55881 3.13448 9.55881 5.48534C9.55881 7.8362 9.19116 10.9707 5.88234 10.9707C2.57352 10.9707 2.20588 7.8362 2.20588 5.48534Z" fill="#3B82F6"></path>
-                                    <path d="M0.735293 6.85668C0.329202 6.85668 0 7.16366 0 7.54235C0 9.71338 1.60766 12.6347 5.14806 12.9915C5.14739 13.0035 5.14705 13.0155 5.14705 13.0277V13.7134H3.67646C3.27037 13.7134 2.94117 14.0203 2.94117 14.399C2.94117 14.7777 3.27037 15.0847 3.67646 15.0847H8.08822C8.49431 15.0847 8.82351 14.7777 8.82351 14.399C8.82351 14.0203 8.49431 13.7134 8.08822 13.7134H6.61764V13.0277C6.61764 13.0155 6.61729 13.0035 6.61663 12.9915C10.157 12.6347 11.7647 9.71337 11.7647 7.54235C11.7647 7.16366 11.4355 6.85668 11.0294 6.85668C10.6233 6.85668 10.2941 7.16366 10.2941 7.54235C10.2941 9.34052 8.88807 11.6564 5.88234 11.6564C2.87662 11.6564 1.47059 9.34052 1.47059 7.54235C1.47059 7.16366 1.14138 6.85668 0.735293 6.85668Z" fill="#3B82F6"></path>
+                            <div
+                                class="w-6/12 py-1 flex bg-white border dark:border-black rounded-md dark:bg-[#1B344D] items-center justify-center">
+                                <svg class="mr-1 ml-2" width="20" height="22" viewBox="0 0 20 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse opacity="0.15" rx="9.35499" ry="8.68976"
+                                        transform="matrix(0.999965 -0.00839685 0.00973181 0.999953 10.5608 12.9399)"
+                                        fill="#3B82F6"></ellipse>
+                                    <path
+                                        d="M2.20588 5.48534C2.20588 3.13448 2.57353 0 5.88234 0C9.19116 0 9.55881 3.13448 9.55881 5.48534C9.55881 7.8362 9.19116 10.9707 5.88234 10.9707C2.57352 10.9707 2.20588 7.8362 2.20588 5.48534Z"
+                                        fill="#3B82F6"></path>
+                                    <path
+                                        d="M0.735293 6.85668C0.329202 6.85668 0 7.16366 0 7.54235C0 9.71338 1.60766 12.6347 5.14806 12.9915C5.14739 13.0035 5.14705 13.0155 5.14705 13.0277V13.7134H3.67646C3.27037 13.7134 2.94117 14.0203 2.94117 14.399C2.94117 14.7777 3.27037 15.0847 3.67646 15.0847H8.08822C8.49431 15.0847 8.82351 14.7777 8.82351 14.399C8.82351 14.0203 8.49431 13.7134 8.08822 13.7134H6.61764V13.0277C6.61764 13.0155 6.61729 13.0035 6.61663 12.9915C10.157 12.6347 11.7647 9.71337 11.7647 7.54235C11.7647 7.16366 11.4355 6.85668 11.0294 6.85668C10.6233 6.85668 10.2941 7.16366 10.2941 7.54235C10.2941 9.34052 8.88807 11.6564 5.88234 11.6564C2.87662 11.6564 1.47059 9.34052 1.47059 7.54235C1.47059 7.16366 1.14138 6.85668 0.735293 6.85668Z"
+                                        fill="#3B82F6"></path>
                                 </svg>
                                 <span class="text-xs font-bold text-[#4E5968] dark:text-gray-300 ">شماره1066</span>
                             </div>
                         </div>
 
                         <div class="w-6/12 flex gap-4">
-                            <div class=" px-1 flex items-center justify-center  rounded-md hover:bg-blue-600 hover:text-white text-blue-600 "><i class="bi bi-newspaper"></i></div>
-                            <div class="px-3  rounded-md flex gap-1 items-center bg-[#EFF1F4] text-gray-600 dark:bg-[#223B54] dark:text-gray-300"> <i class="bi bi-clock "></i> <span>55:38</span> </div>
-                            <div class=" px-2 flex justify-center items-center gap-1 rounded-md  bg-[#FAE8E8] dark:bg-[#2E3349] text-red-600"><i class="bi bi-heart"></i><span class="mb-1">1</span></div>
+                            <div
+                                class=" px-1 flex items-center justify-center  rounded-md hover:bg-blue-600 hover:text-white text-blue-600 ">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
+                            <div
+                                class="px-3  rounded-md flex gap-1 items-center bg-[#EFF1F4] text-gray-600 dark:bg-[#223B54] dark:text-gray-300">
+                                <i class="bi bi-clock "></i> <span>55:38</span>
+                            </div>
+                            <div
+                                class=" px-2 flex justify-center items-center gap-1 rounded-md  bg-[#FAE8E8] dark:bg-[#2E3349] text-red-600">
+                                <i class="bi bi-heart"></i><span class="mb-1">1</span>
+                            </div>
                         </div>
                     </div>
 
@@ -2016,17 +2313,25 @@
 
 
                     <div class=" w-11/12 flex fix pb-2">
-                        <a href="#" class=" w-6/12 flex justify-center items-center gap-1 text-blue-500 font-bold hover:text-gray-600 transition duration-400">
+                        <a href="#"
+                            class=" w-6/12 flex justify-center items-center gap-1 text-blue-500 font-bold hover:text-gray-600 transition duration-400">
                             <span class=""> برای گوش کردن کلیک کنید</span>
-                            <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
-                                <path fill="currentColor" opacity="0.4" d="M11.1898 4.38459L14.3778 4.10265C15.0932 4.10265 15.6733 4.68836 15.6733 5.41077C15.6733 6.13318 15.0932 6.71889 14.3778 6.71889L11.1898 6.43695C10.6285 6.43695 10.1735 5.97749 10.1735 5.41077C10.1735 4.84309 10.6285 4.38459 11.1898 4.38459"></path>
-                                <path fill="currentColor" d="M0.484342 4.43642C0.534169 4.38611 0.720315 4.17347 0.895179 3.9969C1.91522 2.89098 4.57861 1.08258 5.97189 0.529142C6.18342 0.440858 6.71835 0.252899 7.00509 0.239609C7.27867 0.239609 7.54003 0.303211 7.78916 0.428517C8.10034 0.604136 8.34854 0.881329 8.4858 1.20788C8.57323 1.43382 8.71049 2.11256 8.71049 2.1249C8.84681 2.86629 8.92108 4.07189 8.92108 5.4047C8.92108 6.67295 8.84681 7.82918 8.73493 8.58292C8.72271 8.59621 8.58545 9.43823 8.43597 9.72681C8.16239 10.2546 7.62746 10.5812 7.05492 10.5812H7.00509C6.63186 10.5688 5.84779 10.2413 5.84779 10.2299C4.52879 9.6765 1.92838 7.95544 0.882957 6.81154C0.882957 6.81154 0.587756 6.51726 0.459899 6.33405C0.260591 6.07015 0.160937 5.74359 0.160937 5.41704C0.160937 5.05251 0.272812 4.71361 0.484342 4.43642"></path>
+                            <svg width="16" height="11" viewBox="0 0 16 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                                <path fill="currentColor" opacity="0.4"
+                                    d="M11.1898 4.38459L14.3778 4.10265C15.0932 4.10265 15.6733 4.68836 15.6733 5.41077C15.6733 6.13318 15.0932 6.71889 14.3778 6.71889L11.1898 6.43695C10.6285 6.43695 10.1735 5.97749 10.1735 5.41077C10.1735 4.84309 10.6285 4.38459 11.1898 4.38459">
+                                </path>
+                                <path fill="currentColor"
+                                    d="M0.484342 4.43642C0.534169 4.38611 0.720315 4.17347 0.895179 3.9969C1.91522 2.89098 4.57861 1.08258 5.97189 0.529142C6.18342 0.440858 6.71835 0.252899 7.00509 0.239609C7.27867 0.239609 7.54003 0.303211 7.78916 0.428517C8.10034 0.604136 8.34854 0.881329 8.4858 1.20788C8.57323 1.43382 8.71049 2.11256 8.71049 2.1249C8.84681 2.86629 8.92108 4.07189 8.92108 5.4047C8.92108 6.67295 8.84681 7.82918 8.73493 8.58292C8.72271 8.59621 8.58545 9.43823 8.43597 9.72681C8.16239 10.2546 7.62746 10.5812 7.05492 10.5812H7.00509C6.63186 10.5688 5.84779 10.2413 5.84779 10.2299C4.52879 9.6765 1.92838 7.95544 0.882957 6.81154C0.882957 6.81154 0.587756 6.51726 0.459899 6.33405C0.260591 6.07015 0.160937 5.74359 0.160937 5.41704C0.160937 5.05251 0.272812 4.71361 0.484342 4.43642">
+                                </path>
                             </svg>
                         </a>
 
                         <div class="w-6/12 relative">
                             <a class="overflow-hidden w-11/12 transition" href="#">
-                                <img class="w-4/12 absolute left-0 -bottom-5 " src="https://static.roocket.ir/images/cover/2024/6/4/o1jB0qMf8QbDmeJU0vlsMvpG0kUw6WgxTZ4JrSMq.jpg" alt="">
+                                <img class="w-4/12 absolute left-0 -bottom-5 "
+                                    src="https://static.roocket.ir/images/cover/2024/6/4/o1jB0qMf8QbDmeJU0vlsMvpG0kUw6WgxTZ4JrSMq.jpg"
+                                    alt="">
                             </a>
                         </div>
                     </div>
@@ -2041,17 +2346,23 @@
         <!-- amoozesh -->
 
         <section class="flex flex-wrap mt-32 justify-center">
-            <div class="w-11/12 bg-white flex flex-col gap-16 dark:bg-[#1B2F43] border-2 dark:border-gray-700 p-10 rounded-md">
+            <div
+                class="w-11/12 bg-white flex flex-col gap-16 dark:bg-[#1B2F43] border-2 dark:border-gray-700 p-10 rounded-md">
                 <span class="text-3xl font-extrabold dark:text-white">
                     آموزش برنامه نویسی با راکت
                 </span>
 
                 <p class=" dark:text-white">
-                    برنامه نویسی یکی از حوزه‌های داغ در دنیای کنونی است و افراد بسیار زیادی تصمیم دارند تا فرایند آموزش برنامه نویسی را آغاز کنند. دلایل بسیار زیادی برای این موضوع وجود دارد که در ادامه به آن‌ها خواهیم پرداخت. اما این نکته را در ذهن داشته باشید که یادگیری و آموزش برنامه نویسی می‌تواند آینده شما را تضمین کرده و مسیر کاری مشخصی را برای شما ایجاد کند.
+                    برنامه نویسی یکی از حوزه‌های داغ در دنیای کنونی است و افراد بسیار زیادی تصمیم دارند تا فرایند آموزش
+                    برنامه نویسی را آغاز کنند. دلایل بسیار زیادی برای این موضوع وجود دارد که در ادامه به آن‌ها خواهیم
+                    پرداخت. اما این نکته را در ذهن داشته باشید که یادگیری و آموزش برنامه نویسی می‌تواند آینده شما را
+                    تضمین کرده و مسیر کاری مشخصی را برای شما ایجاد کند.
                 </p>
 
                 <p class=" dark:text-white">
-                    در این مطلب از وبسایت راکت قصد داریم در ارتباط با ضرورت آموزش برنامه نویسی صحبت کنیم، تاریخچه‌ای کلی از آن را مورد ارزیابی قراردهیم، مسیری برای آموزش برنامه نویسی از صفر را به شما معرفی کنیم و همچنین از آموزش‌های رایگان و آموزش‌های مربوط به وب بگوییم. 
+                    در این مطلب از وبسایت راکت قصد داریم در ارتباط با ضرورت آموزش برنامه نویسی صحبت کنیم، تاریخچه‌ای کلی
+                    از آن را مورد ارزیابی قراردهیم، مسیری برای آموزش برنامه نویسی از صفر را به شما معرفی کنیم و همچنین
+                    از آموزش‌های رایگان و آموزش‌های مربوط به وب بگوییم.
                 </p>
             </div>
 
@@ -2061,72 +2372,83 @@
 
     </main>
 
-    <footer >
+    <footer>
         <section class="container mx-auto mt-32 px-10">
-            <div class="  w-full flex flex-wrap sm:justify-between sm:gap-10 sm:px-0 sm:w-full  items-center justify-center lg:justify-between px-12 ">
+            <div
+                class="  w-full flex flex-wrap sm:justify-between sm:gap-10 sm:px-0 sm:w-full  items-center justify-center lg:justify-between px-12 ">
                 <!-- logo -->
                 <div>
-                    <svg class="inline-block " width="220" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 578 128" style="enable-background: new 0 0 578 128" xml:space="preserve">
-                    <style type="text/css">
-                        .st0 {
-                            fill: #ffffff;
-                        }
-                
-                        .st1 {
-                            fill: #ff9900;
-                        }
-                
-                        .st2 {
-                            fill: #ff3333;
-                        }
-                
-                        .st3 {
-                            fill: #637789;
-                        }
-                    </style>
-                    <g>
+                    <svg class="inline-block " width="220" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 578 128"
+                        style="enable-background: new 0 0 578 128" xml:space="preserve">
+                        <style type="text/css">
+                            .st0 {
+                                fill: #ffffff;
+                            }
+
+                            .st1 {
+                                fill: #ff9900;
+                            }
+
+                            .st2 {
+                                fill: #ff3333;
+                            }
+
+                            .st3 {
+                                fill: #637789;
+                            }
+                        </style>
                         <g>
                             <g>
-                                <polygon class="st1" points="46.3,124.7 31.8,103.4 46.3,88.9 60.9,103.4 			"></polygon>
-                                <path class="st2" d="M86.5,43.7v48l-20-15.1c0,0,2.2-18.7,2.6-32.9c0.2-7-6.4-13-22.6-21c-16.3,8.1-22.8,14-22.6,21
+                                <g>
+                                    <polygon class="st1" points="46.3,124.7 31.8,103.4 46.3,88.9 60.9,103.4 			">
+                                    </polygon>
+                                    <path class="st2" d="M86.5,43.7v48l-20-15.1c0,0,2.2-18.7,2.6-32.9c0.2-7-6.4-13-22.6-21c-16.3,8.1-22.8,14-22.6,21
                                     c0.4,14.2,2.6,32.9,2.6,32.9l-20,15.1v-48c0-8.5,3.6-16.2,10.7-22.8c5-4.7,11.9-9,22.3-14.1l7-3.5l7,3.5
                                     c10.4,5.1,17.3,9.5,22.3,14.1C82.9,27.5,86.5,35.2,86.5,43.7z"></path>
-                            </g>
-                            <path class="st3" d="M163.7,86.1l-17-16.5h-21.5v16.5h-12V26.4h43.7c10.3,0,18.9,9.9,18.9,21.6c0,9.2-5.5,17.7-13.2,20.5
+                                </g>
+                                <path class="st3"
+                                    d="M163.7,86.1l-17-16.5h-21.5v16.5h-12V26.4h43.7c10.3,0,18.9,9.9,18.9,21.6c0,9.2-5.5,17.7-13.2,20.5
                                 l17.9,17.6H163.7z M156.4,56.5c3.9,0,7.4-4,7.4-8.5c0-4.6-3.4-8.5-7.4-8.5h-31.2v16.9H156.4z"></path>
-                            <path class="st3" d="M216.1,87.4c-21.3,0-33.5-10.8-33.5-29.6v-2.9c0-18.8,12.2-29.7,33.5-29.7c21.3,0,33.5,10.8,33.5,29.7v2.9
+                                <path class="st3" d="M216.1,87.4c-21.3,0-33.5-10.8-33.5-29.6v-2.9c0-18.8,12.2-29.7,33.5-29.7c21.3,0,33.5,10.8,33.5,29.7v2.9
                                 C249.6,76.6,237.4,87.4,216.1,87.4z M216.1,39c-12.9,0-21.4,2.7-21.4,16.1v2.4c0,13.3,8.6,16.1,21.4,16.1
                                 c11.2,0,21.5-1.9,21.5-16.1V55C237.6,40.9,227.3,39,216.1,39z"></path>
-                            <path class="st3" d="M289.2,87.4c-21.3,0-33.5-10.8-33.5-29.6v-2.9c0-18.8,12.2-29.7,33.5-29.7c21.3,0,33.5,10.8,33.5,29.7v2.9
+                                <path class="st3" d="M289.2,87.4c-21.3,0-33.5-10.8-33.5-29.6v-2.9c0-18.8,12.2-29.7,33.5-29.7c21.3,0,33.5,10.8,33.5,29.7v2.9
                                 C322.7,76.6,310.5,87.4,289.2,87.4z M289.2,39c-12.9,0-21.4,2.7-21.4,16.1v2.4c0,13.3,8.6,16.1,21.4,16.1
                                 c11.2,0,21.5-1.9,21.5-16.1V55C310.8,40.9,300.4,39,289.2,39z"></path>
-                            <polygon class="st3" points="537.5,86.1 537.5,40.1 515.4,40.1 515.4,26.4 571.6,26.4 571.6,40.1 549.5,40.1 549.5,86.1 		">
-                            </polygon>
-                            <path class="st3" d="M362.2,87.1c-10,0-33.2-2.9-33.2-29.4v-3c0-26.5,23.2-29.4,33.2-29.4c14.9,0,20.7,3,22.1,3.9l0.5,0.3v11.7
+                                <polygon class="st3"
+                                    points="537.5,86.1 537.5,40.1 515.4,40.1 515.4,26.4 571.6,26.4 571.6,40.1 549.5,40.1 549.5,86.1 		">
+                                </polygon>
+                                <path class="st3" d="M362.2,87.1c-10,0-33.2-2.9-33.2-29.4v-3c0-26.5,23.2-29.4,33.2-29.4c14.9,0,20.7,3,22.1,3.9l0.5,0.3v11.7
                                 l-1.4-0.5c-2.3-0.8-10.4-3.4-21.2-3.4c-13.7,0-20.6,5.9-20.6,17.6v2.5c0,11.7,6.9,17.6,20.6,17.6c10.7,0,18.9-2.6,21.2-3.4
                                 l1.4-0.5v11.7l-0.5,0.3C382.9,84.1,377.1,87.1,362.2,87.1z"></path>
-                            <polygon class="st3" points="432.6,85.8 404.9,60.2 404.9,85.8 392.3,85.8 392.3,26.6 404.9,26.6 404.9,52.8 432,26.6 450.4,26.6 
+                                <polygon class="st3" points="432.6,85.8 404.9,60.2 404.9,85.8 392.3,85.8 392.3,26.6 404.9,26.6 404.9,52.8 432,26.6 450.4,26.6 
                                 420,56.2 452.3,85.8 		"></polygon>
-                            <polygon class="st3" points="456,85.8 456,26.6 509.3,26.6 509.3,38.5 468.6,38.5 468.6,50.5 506.3,50.5 506.3,61.9 468.6,61.9 
+                                <polygon class="st3" points="456,85.8 456,26.6 509.3,26.6 509.3,38.5 468.6,38.5 468.6,50.5 506.3,50.5 506.3,61.9 468.6,61.9 
                                 468.6,73.9 509.3,73.9 509.3,85.8 		"></polygon>
+                            </g>
                         </g>
-                    </g>
                     </svg>
                 </div>
                 <!-- icons -->
                 <nav class="mt-5 lg:mt-0">
                     <ul class="flex flex-wrap gap-3">
-                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-pink-600 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-pink-600  hover:dark:text-white  dark:shadow-lg dark:hover:shadow-pink-600 hover:shadow-lg hover:shadow-pink-600 " href="#"> <i class="bi bi-instagram text-2xl "></i></a></li>
-                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-blue-400 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-blue-400 hover:dark:text-white  dark:shadow-lg dark:hover:shadow-blue-400 hover:shadow-lg hover:shadow-blue-400 " href="#"> <i class="bi bi-telegram text-2xl "></i></a></li>
-                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-red-600 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-red-600 hover:dark:text-white  dark:shadow-lg dark:hover:shadow-red-600 hover:shadow-lg hover:shadow-red-600 " href="#"> <i class="bi bi-youtube text-2xl "></i></a></li>
-                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-blue-800 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-blue-800 hover:dark:text-white  dark:shadow-lg dark:hover:shadow-blue-800 hover:shadow-lg hover:shadow-blue-800 " href="#"> <i class="bi bi-facebook text-2xl "></i></a></li>
-                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-blue-600 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-blue-600 hover:dark:text-white  dark:shadow-lg dark:hover:shadow-blue-600 hover:shadow-lg hover:shadow-blue-600 " href="#"> <i class="bi bi-twitter text-2xl "></i></a></li>
+                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-pink-600 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-pink-600  hover:dark:text-white  dark:shadow-lg dark:hover:shadow-pink-600 hover:shadow-lg hover:shadow-pink-600 "
+                                href="#"> <i class="bi bi-instagram text-2xl "></i></a></li>
+                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-blue-400 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-blue-400 hover:dark:text-white  dark:shadow-lg dark:hover:shadow-blue-400 hover:shadow-lg hover:shadow-blue-400 "
+                                href="#"> <i class="bi bi-telegram text-2xl "></i></a></li>
+                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-red-600 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-red-600 hover:dark:text-white  dark:shadow-lg dark:hover:shadow-red-600 hover:shadow-lg hover:shadow-red-600 "
+                                href="#"> <i class="bi bi-youtube text-2xl "></i></a></li>
+                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-blue-800 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-blue-800 hover:dark:text-white  dark:shadow-lg dark:hover:shadow-blue-800 hover:shadow-lg hover:shadow-blue-800 "
+                                href="#"> <i class="bi bi-facebook text-2xl "></i></a></li>
+                        <li><a class="p-1 px-2 bg-white text-blue-500 hover:text-white hover:bg-blue-600 flex justify-center items-center rounded-md  transition duration-500 dark:bg-[#152851] dark:text-[#609CFF] hover:dark:bg-blue-600 hover:dark:text-white  dark:shadow-lg dark:hover:shadow-blue-600 hover:shadow-lg hover:shadow-blue-600 "
+                                href="#"> <i class="bi bi-twitter text-2xl "></i></a></li>
                     </ul>
                 </nav>
             </div>
         </section>
         <!-- down footer -->
-        <section class="container mt-32  mx-auto">
+        <section class="container mt-32  mx-auto ">
             <div class="flex flex-wrap w-full justify-center ">
                 <!-- box-1 az rast -->
                 <div class=" lg:w-6/12 flex flex-col ps-10 gap-10 items-center justify-center ">
@@ -2137,28 +2459,42 @@
 
                     <p class="w-9/12 text-sm text-gray-600 dark:text-gray-500">
 
-                        راکت یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح ایران است که همیشه تلاش کرده تا بتواند جدیدترین و بروزترین مقالات و دوره‌های آموزشی را در اختیار علاقه‌مندان ایرانی قرار دهد. تبدیل کردن برنامه نویسان ایرانی به بهترین برنامه نویسان جهان هدف ماست.
+                        راکت یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح ایران است که همیشه تلاش کرده تا
+                        بتواند جدیدترین و بروزترین مقالات و دوره‌های آموزشی را در اختیار علاقه‌مندان ایرانی قرار دهد.
+                        تبدیل کردن برنامه نویسان ایرانی به بهترین برنامه نویسان جهان هدف ماست.
                     </p>
 
-                    <a href="#" class="flex justify-center  gap-2 items-center w-8/12 text-blue-600 hover:text-gray-600 transition duration-500">
+                    <a href="#"
+                        class="flex justify-center  gap-2 items-center w-8/12 text-blue-600 hover:text-gray-600 transition duration-500">
                         <span>مشاهده اطلاعات مسیریادگیری
                         </span>
-                        <svg class="mr-1" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill="currentColor" opacity="0.4" d="M10.4527 4.15949L13.3686 3.90161C14.023 3.90161 14.5536 4.43735 14.5536 5.09812C14.5536 5.75889 14.023 6.29463 13.3686 6.29463L10.4527 6.03674C9.93928 6.03674 9.52308 5.61649 9.52308 5.09812C9.52308 4.57888 9.93928 4.15949 10.4527 4.15949"></path>
-                            <path fill="currentColor" class="fill-current duration-200 transition dark:group-hover:text-blue-60 dark:text-blue-950 text-blue dark:hover:text-gray-210-700 grou-hover:text-dark-700" d="M0.660621 4.20689C0.706196 4.16087 0.87646 3.96637 1.0364 3.80487C1.96941 2.79331 4.40555 1.13921 5.67995 0.632993C5.87343 0.552242 6.36272 0.38032 6.62499 0.368164C6.87523 0.368164 7.11429 0.42634 7.34216 0.540954C7.6268 0.701589 7.85381 0.95513 7.97936 1.25382C8.05933 1.46048 8.18488 2.08131 8.18488 2.09259C8.30957 2.77073 8.3775 3.87346 8.3775 5.09255C8.3775 6.25259 8.30957 7.31017 8.20724 7.99959C8.19606 8.01175 8.07051 8.78192 7.93379 9.04589C7.68355 9.52866 7.19426 9.82735 6.67057 9.82735H6.62499C6.28361 9.81606 5.56644 9.5165 5.56644 9.50608C4.35998 8.99987 1.98145 7.42565 1.02522 6.37936C1.02522 6.37936 0.755212 6.11019 0.638263 5.94261C0.455961 5.70122 0.36481 5.40253 0.36481 5.10383C0.36481 4.77041 0.46714 4.46043 0.660621 4.20689"></path>
+                        <svg class="mr-1" width="15" height="10" viewBox="0 0 15 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" opacity="0.4"
+                                d="M10.4527 4.15949L13.3686 3.90161C14.023 3.90161 14.5536 4.43735 14.5536 5.09812C14.5536 5.75889 14.023 6.29463 13.3686 6.29463L10.4527 6.03674C9.93928 6.03674 9.52308 5.61649 9.52308 5.09812C9.52308 4.57888 9.93928 4.15949 10.4527 4.15949">
+                            </path>
+                            <path fill="currentColor"
+                                class="fill-current duration-200 transition dark:group-hover:text-blue-60 dark:text-blue-950 text-blue dark:hover:text-gray-210-700 grou-hover:text-dark-700"
+                                d="M0.660621 4.20689C0.706196 4.16087 0.87646 3.96637 1.0364 3.80487C1.96941 2.79331 4.40555 1.13921 5.67995 0.632993C5.87343 0.552242 6.36272 0.38032 6.62499 0.368164C6.87523 0.368164 7.11429 0.42634 7.34216 0.540954C7.6268 0.701589 7.85381 0.95513 7.97936 1.25382C8.05933 1.46048 8.18488 2.08131 8.18488 2.09259C8.30957 2.77073 8.3775 3.87346 8.3775 5.09255C8.3775 6.25259 8.30957 7.31017 8.20724 7.99959C8.19606 8.01175 8.07051 8.78192 7.93379 9.04589C7.68355 9.52866 7.19426 9.82735 6.67057 9.82735H6.62499C6.28361 9.81606 5.56644 9.5165 5.56644 9.50608C4.35998 8.99987 1.98145 7.42565 1.02522 6.37936C1.02522 6.37936 0.755212 6.11019 0.638263 5.94261C0.455961 5.70122 0.36481 5.40253 0.36481 5.10383C0.36481 4.77041 0.46714 4.46043 0.660621 4.20689">
+                            </path>
                         </svg>
 
 
                     </a>
 
                     <div class="flex h-8 b ">
-                        <input class="border-e-0 focus:ring-0 dark:border-gray-700 w-80 rounded-s-md border-gray-300 dark:bg-[#0E2338] dark:text-slate-300 text-black"  type="text" >
-                        <button class="bg-blue-600 border-s-none border-gray-300 px-5 text-sm font-bold text-white rounded-e-md hover:bg-green-400 transition duration-500">ثبت ایمیل</button>
+                        <input
+                            class="border-e-0 focus:ring-0 dark:border-gray-700 w-80 rounded-s-md border-gray-300 dark:bg-[#0E2338] dark:text-slate-300 text-black"
+                            type="text">
+                        <button
+                            class="bg-blue-600 border-s-none border-gray-300 px-5 text-sm font-bold text-white rounded-e-md hover:bg-green-400 transition duration-500">ثبت
+                            ایمیل</button>
 
                     </div>
                 </div>
                 <!-- box-2  -->
-                <div class="sm:w-6/12 sm:items-start mt-10 md:mt-5 lg:mt-0 md:w-6/12 w-full items-center  flex flex-col gap-5 lg:w-3/12 lg:items-center  ">
+                <div
+                    class="sm:w-6/12 sm:items-start mt-10 md:mt-5 lg:mt-0 md:w-6/12 w-full items-center  flex flex-col gap-5 lg:w-3/12 lg:items-center  ">
                     <span class="text-xl font-bold dark:text-white">بخش های سایت</span>
                     <nav class="ms-5 mt-5">
                         <ul class="text-sm flex flex-col gap-4 font-semibold dark:text-gray-400  ">
@@ -2176,12 +2512,17 @@
                         ارتباط با ما
                     </span>
                     <!-- mail -->
-                    <div class="flex mt-10 justify-between" >
+                    <div class="flex mt-10 justify-between">
                         <!-- r -->
                         <div class="flex gap-2 ">
-                            <svg class="dark:text-blue-950 text-blue-980 " width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.5632 4.17184C15.4183 3.54105 15.2294 3.0782 15.0064 2.72729C14.2794 3.41662 13.3594 4.25301 12.3603 4.98727C10.9828 5.99965 9.61574 6.69415 8.50008 6.69415C7.38443 6.69415 6.01733 5.99965 4.63986 4.98727C3.64079 4.25301 2.72075 3.41662 1.99377 2.72729C1.77081 3.0782 1.58187 3.54105 1.437 4.17184C1.43013 4.20176 1.42338 4.23196 1.41675 4.26247C2.07618 4.86961 2.86033 5.55149 3.70121 6.1695C5.10702 7.2027 6.83246 8.18184 8.50008 8.18184C10.1677 8.18184 11.8931 7.2027 13.299 6.1695C14.1398 5.55149 14.924 4.86961 15.5834 4.26246C15.5768 4.23196 15.57 4.20176 15.5632 4.17184Z" fill="currentColor"></path>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.5C0 13.6762 1.50025 15 8.5 15C15.4997 15 17 13.6762 17 7.5C17 1.32375 15.4997 0 8.5 0C1.50025 0 0 1.32375 0 7.5ZM8.5 13.75C6.7824 13.75 5.49884 13.6672 4.5262 13.4764C3.56964 13.2889 3.0028 13.0139 2.62683 12.6822C2.25086 12.3505 1.9393 11.8503 1.72671 11.0063C1.51055 10.1481 1.41667 9.01553 1.41667 7.5C1.41667 5.98447 1.51055 4.85192 1.72671 3.99371C1.9393 3.14968 2.25086 2.64953 2.62683 2.31779C3.0028 1.98605 3.56964 1.71115 4.5262 1.52357C5.49884 1.33284 6.7824 1.25 8.5 1.25C10.2176 1.25 11.5012 1.33284 12.4738 1.52357C13.4304 1.71115 13.9972 1.98605 14.3732 2.31779C14.7491 2.64953 15.0607 3.14968 15.2733 3.99371C15.4895 4.85192 15.5833 5.98447 15.5833 7.5C15.5833 9.01553 15.4895 10.1481 15.2733 11.0063C15.0607 11.8503 14.7491 12.3505 14.3732 12.6822C13.9972 13.0139 13.4304 13.2889 12.4738 13.4764C11.5012 13.6672 10.2176 13.75 8.5 13.75Z" fill="currentColor"></path>
+                            <svg class="dark:text-blue-950 text-blue-980 " width="17" height="15" viewBox="0 0 17 15"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.5632 4.17184C15.4183 3.54105 15.2294 3.0782 15.0064 2.72729C14.2794 3.41662 13.3594 4.25301 12.3603 4.98727C10.9828 5.99965 9.61574 6.69415 8.50008 6.69415C7.38443 6.69415 6.01733 5.99965 4.63986 4.98727C3.64079 4.25301 2.72075 3.41662 1.99377 2.72729C1.77081 3.0782 1.58187 3.54105 1.437 4.17184C1.43013 4.20176 1.42338 4.23196 1.41675 4.26247C2.07618 4.86961 2.86033 5.55149 3.70121 6.1695C5.10702 7.2027 6.83246 8.18184 8.50008 8.18184C10.1677 8.18184 11.8931 7.2027 13.299 6.1695C14.1398 5.55149 14.924 4.86961 15.5834 4.26246C15.5768 4.23196 15.57 4.20176 15.5632 4.17184Z"
+                                    fill="currentColor"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 7.5C0 13.6762 1.50025 15 8.5 15C15.4997 15 17 13.6762 17 7.5C17 1.32375 15.4997 0 8.5 0C1.50025 0 0 1.32375 0 7.5ZM8.5 13.75C6.7824 13.75 5.49884 13.6672 4.5262 13.4764C3.56964 13.2889 3.0028 13.0139 2.62683 12.6822C2.25086 12.3505 1.9393 11.8503 1.72671 11.0063C1.51055 10.1481 1.41667 9.01553 1.41667 7.5C1.41667 5.98447 1.51055 4.85192 1.72671 3.99371C1.9393 3.14968 2.25086 2.64953 2.62683 2.31779C3.0028 1.98605 3.56964 1.71115 4.5262 1.52357C5.49884 1.33284 6.7824 1.25 8.5 1.25C10.2176 1.25 11.5012 1.33284 12.4738 1.52357C13.4304 1.71115 13.9972 1.98605 14.3732 2.31779C14.7491 2.64953 15.0607 3.14968 15.2733 3.99371C15.4895 4.85192 15.5833 5.98447 15.5833 7.5C15.5833 9.01553 15.4895 10.1481 15.2733 11.0063C15.0607 11.8503 14.7491 12.3505 14.3732 12.6822C13.9972 13.0139 13.4304 13.2889 12.4738 13.4764C11.5012 13.6672 10.2176 13.75 8.5 13.75Z"
+                                    fill="currentColor"></path>
                             </svg>
                             <span class="dark:text-gray-400">ایمیل</span>
                         </div>
@@ -2192,11 +2533,15 @@
 
                     </div>
                     <!-- telegram -->
-                    <div class="flex mt-10 justify-between  items-center " >
+                    <div class="flex mt-10 justify-between  items-center ">
                         <!-- r -->
                         <div class="flex gap-2 ">
-                            <svg class="dark:text-blue-950 text-blue-980 " width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.14715 9.85653L8.80585 8.19987M7.14715 9.85653C5.93121 11.0732 0.81617 8.93438 1.73474 6.22947C2.6533 3.52456 12.7125 0.221534 14.7459 2.25616C16.7793 4.29079 13.4633 14.3879 10.772 15.2723C8.08068 16.1567 5.93121 11.0732 7.14715 9.85653Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <svg class="dark:text-blue-950 text-blue-980 " width="17" height="17" viewBox="0 0 17 17"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.14715 9.85653L8.80585 8.19987M7.14715 9.85653C5.93121 11.0732 0.81617 8.93438 1.73474 6.22947C2.6533 3.52456 12.7125 0.221534 14.7459 2.25616C16.7793 4.29079 13.4633 14.3879 10.772 15.2723C8.08068 16.1567 5.93121 11.0732 7.14715 9.85653Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
                             </svg>
                             <span class="dark:text-gray-400">تلگرام</span>
                         </div>
@@ -2216,7 +2561,7 @@
             </div>
         </section>
     </footer>
-
+    <script src="../node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script>
@@ -2228,6 +2573,10 @@
         }
     </script>
     <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
