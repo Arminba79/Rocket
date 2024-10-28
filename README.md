@@ -1,4 +1,4 @@
-“Hello, this project is built with the Tailwind framework.
+##Hello, this project is built with the Tailwind framework.
 ## Getting Started
 
 ### Prerequisites
